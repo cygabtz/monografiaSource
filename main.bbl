@@ -1,0 +1,334 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Bhargava%
+}{%
+Bhargava%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+bhargava-2016}
+\APACinsertmetastar {%
+bhargava-2016}%
+\begin{APACrefauthors}%
+Bhargava, A\BPBI Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2016}.
+\newblock
+\APACrefbtitle {{Grokking algorithms}} {{Grokking algorithms}}.
+\newblock
+\APACaddressPublisher{}{Manning Publications}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bobrov%
+}{%
+Bobrov%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+bobrov-2023}
+\APACinsertmetastar {%
+bobrov-2023}%
+\begin{APACrefauthors}%
+Bobrov, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2023}.
+\newblock
+\APACrefbtitle {{Grokking concurrency}} {{Grokking concurrency}}.
+\newblock
+\APACaddressPublisher{}{Manning}.
+\newblock
+\begin{APACrefURL} \url{https://www.manning.com/books/grokking-concurrency}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+College%
+}{%
+College%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+wellesley-college-2000}
+\APACinsertmetastar {%
+wellesley-college-2000}%
+\begin{APACrefauthors}%
+College, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+\APACrefbtitle {{Forms of iteration}.} {{Forms of iteration}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://cs111.wellesley.edu/archive/cs111_spring00/public_html/lectures/iteration.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+[ELI]%
+\ \BBA {} [NOVA]%
+}{%
+[ELI]%
+\ \BBA {} [NOVA]%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+extended-learning-institute-no-date}
+\APACinsertmetastar {%
+extended-learning-institute-no-date}%
+\begin{APACrefauthors}%
+[ELI], E\BPBI L\BPBI I.%
+\BCBT {}\ \BBA {} [NOVA], N\BPBI V\BPBI C\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {{Reading: Structured Programming}.} {{Reading: Structured
+  Programming}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://courses.lumenlearning.com/sanjacinto-computerapps/chapter/reading-structured-programming/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{ForkJoinPool} (java {SE} 10 \& {JDK} 10 )}}{%
+\APACcitebtitle {{ForkJoinPool} (java {SE} 10 \& {JDK} 10 )}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+OracleForkJoin}
+\APACinsertmetastar {%
+OracleForkJoin}%
+\APACrefbtitle {{ForkJoinPool} (java {SE} 10 \& {JDK} 10 ).} {{ForkJoinPool}
+  (java {SE} 10 \& {JDK} 10 ).}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APAChowpublished
+  {\url{https://docs.oracle.com/javase/10/docs/api/java/util/concurrent/ForkJoinPool.html}}.
+\newblock
+\APACrefnote{Accessed: 2024-12-15}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Heineman%
+, Pollice%
+\BCBL {}\ \BBA {} Selkow%
+}{%
+Heineman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+Heineman2008-mw}
+\APACinsertmetastar {%
+Heineman2008-mw}%
+\begin{APACrefauthors}%
+Heineman, G\BPBI T.%
+, Pollice, G.%
+\BCBL {}\ \BBA {} Selkow, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {Algorithms in a Nutshell} {Algorithms in a nutshell}.
+\newblock
+\APACaddressPublisher{Sebastopol, CA, Estados Unidos de Am{\'e}rica}{O'Reilly
+  Media}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Knuth%
+}{%
+Knuth%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+knuth-1997}
+\APACinsertmetastar {%
+knuth-1997}%
+\begin{APACrefauthors}%
+Knuth, D\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1997}.
+\newblock
+\APACrefbtitle {{The Art of Computer Programming: Seminumerical algorithms}}
+  {{The Art of Computer Programming: Seminumerical algorithms}}.
+\newblock
+\APACaddressPublisher{}{Addison-Wesley Professional}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Magee%
+\ \BBA {} Kramer%
+}{%
+Magee%
+\ \BBA {} Kramer%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+magee-2006}
+\APACinsertmetastar {%
+magee-2006}%
+\begin{APACrefauthors}%
+Magee, J.%
+\BCBT {}\ \BBA {} Kramer, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\newblock
+\APACrefbtitle {{Concurrency}} {{Concurrency}}.
+\newblock
+\APACaddressPublisher{}{John Wiley \& Sons}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+McMillan%
+}{%
+McMillan%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+McMillan-2007}
+\APACinsertmetastar {%
+McMillan-2007}%
+\begin{APACrefauthors}%
+McMillan, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Basic Sorting Algorithms} {Basic sorting
+  algorithms}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Data Structures and Algorithms Using C\#} {Data
+  structures and algorithms using c\#}\ (\BPG~42–43).
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ramgir%
+\ \BBA {} Samoylov%
+}{%
+Ramgir%
+\ \BBA {} Samoylov%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Ramgir2017-mv}
+\APACinsertmetastar {%
+Ramgir2017-mv}%
+\begin{APACrefauthors}%
+Ramgir, M.%
+\BCBT {}\ \BBA {} Samoylov, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2017}.
+\newblock
+\APACrefbtitle {Java 9 High Performance} {Java 9 high performance}.
+\newblock
+\APACaddressPublisher{Birmingham, Inglaterra}{Packt Publishing}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sedgewick%
+}{%
+Sedgewick%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+Sedgewick2003-cd}
+\APACinsertmetastar {%
+Sedgewick2003-cd}%
+\begin{APACrefauthors}%
+Sedgewick, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2003}.
+\newblock
+\APACrefbtitle {Algorithms in java} {Algorithms in java}\ (\PrintOrdinal{3}\
+  \BEd).
+\newblock
+\APACaddressPublisher{Boston, MA, Estados Unidos de Am{\'e}rica}{Addison-Wesley
+  Educational}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Skiena%
+}{%
+Skiena%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+skiena-2008}
+\APACinsertmetastar {%
+skiena-2008}%
+\begin{APACrefauthors}%
+Skiena, S\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {{The Algorithm Design Manual}} {{The Algorithm Design Manual}}.
+\newblock
+\APACaddressPublisher{}{Springer London}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1007/978-1-84800-070-4}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-1-84800-070-4} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{SplitTableRandom (Java Platform SE 8 )}}}{%
+\APACcitebtitle {{SplitTableRandom (Java Platform SE 8 )}}}{%
+{\protect \APACyear {2024}}%
+}]{%
+OracleSplittableRandom}
+\APACinsertmetastar {%
+OracleSplittableRandom}%
+\APACrefbtitle {{SplitTableRandom (Java Platform SE 8 )}.} {{SplitTableRandom
+  (Java Platform SE 8 )}.}
+\newblock
+\APACrefYearMonthDay{2024}{9}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://docs.oracle.com/javase/8/docs/api/java/util/SplittableRandom.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{System (Java Platform SE 8 )}}}{%
+\APACcitebtitle {{System (Java Platform SE 8 )}}}{%
+{\protect \APACyear {2024}}%
+}]{%
+OracleSystem}
+\APACinsertmetastar {%
+OracleSystem}%
+\APACrefbtitle {{System (Java Platform SE 8 )}.} {{System (Java Platform SE 8
+  )}.}
+\newblock
+\APACrefYearMonthDay{2024}{9}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://docs.oracle.com/javase/8/docs/api/java/lang/System.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
