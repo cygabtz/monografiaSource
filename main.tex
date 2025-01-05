@@ -39,15 +39,14 @@
 \setlength{\skip\footins}{1cm}
 \renewcommand{\footnotesize}{\scriptsize}
 
-%%%%%TACHADO
-\usepackage[normalem]{ulem}
-
 %%IN-LINE CODE
 \usepackage{listings}
 \usepackage{color}
-\definecolor{dkgreen}{rgb}{0,0.6,0}
-\definecolor{gray}{rgb}{0.5,0.5,0.5}
-\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+%%---TIMES NEW ROMAN---
+\usepackage{mathptmx} % Usa Times New Roman para texto y matemáticas 
+\usepackage[utf8]{inputenc} % Manejo de caracteres UTF-8 
+\usepackage[T1]{fontenc} % Codificación de fuentes
 
 \lstset{frame=tb,
   language=Java,
@@ -83,7 +82,15 @@
 %%%%%FIGURAS ADAPTADAS
 \usepackage{wrapfig}
 
+%%%%%Forzar figuras con H
+\usepackage{float}
+
 \begin{document}
+	
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}	
+	
 %%%%PORTADA%%%%%%%%%%%%%%%%%
 \begin{titlepage}
 \centering
@@ -109,56 +116,39 @@
 %%%%%%%%%%%%%%%INTRODUCIÓN%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introducción}
-La finalidad de esta investigación evaluar holísticamente cuatro implementaciones del algoritmo de ordenación Merge Sort en términos de complejidad temporal y espacial, en el peor caso; tiempos de ejecución y memoria usados; y, la naturaleza específica de cada implementación. Concretamente, se comparan el Merge Sort Iterativo Serial (MSIS), el Merge Sort Recursivo Serial (MSRS), el Merge Sort Recursivo Paralelo (MSRP), y el Merge Sort Iterativo Paralelo (MSIP).
+En el día a día usamos estructuras de datos ordenadas, como la lista de contactos del teléfono, en los almacenes para la gestión de inventario, en los resultados de una búsqueda en internet, etc. El proceso de colocar los datos en un cierto orden se llama ordenación.\footnote{\cite{knuth-1997}} La ordenación es una operación común en los sistemas informáticos y ha sido ampliamente estudiada.\footnote{\cite{McMillan-2007}} Aun así, no existe un algoritmo de ordenación perfecto. Actualmente, se siguen desarrollando, y además estos relacionan una gran variedad de conceptos de informática, como la concurrencia, el paralelismo, la ejecución serial, la iteración o la recursión.
 
-
-\subsection{Algoritmos de ordenación}
-En el día a día usamos estructuras de datos ordenadas, como la lista de contactos del teléfono, en los almacenes para la gestión de inventario, en los resultados de una búsqueda en internet, etc. El proceso de colocar los datos en un cierto orden se llama ordenación.\footnote{\cite{knuth-1997}} La ordenación es una operación común en los sistemas informáticos y ha sido ampliamente estudiada.\footnote{\cite{McMillan-2007}} Aun así, no existe un algoritmo de ordenación perfecto. Actualmente, se siguen desarrollando, y además estos relacionan una gran variedad de conceptos de informática. Por ende, este estudio resulta relevante. En esta investigación, se aplican los paradigmas de la concurrencia, el paralelismo, la ejecución serial, la iteración y la recursión al algoritmo \textit{Merge Sort}.
+La finalidad de esta investigación evaluar holísticamente cuatro implementaciones del algoritmo de ordenación Merge Sort en términos de complejidad temporal y espacial, del peor caso; tiempos de ejecución y memoria usados; además de la naturaleza específica de cada implementación. Concretamente, se comparan el Merge Sort Iterativo Serial (MSIS), el Merge Sort Recursivo Serial (MSRS), el Merge Sort Recursivo Paralelo (MSRP), y el Merge Sort Iterativo Paralelo (MSIP).
 
 \subsection{Merge Sort}
-El ordenamiento por mezcla (\textit{Merge Sort}) es un algoritmo de ordenación inspirado en la técnica divide y vencerás (\textit{divide-and-conquer}). Es capaz de ordenar un conjunto de datos a través de los siguientes pasos: 
-\begin{spacing}{1}
-\begin{enumerate}
-    \item dividir la colección en dos mitades,
-    \item dividir las sub-colecciones en más mitades hasta que contengan cero o un elemento,
-    \item ordenar cada sub-colección,
-    \item unir (\textit{merge}) todas las sub-colecciones de forma ordenada, y, finalmente
-    \item la colección queda ordenada.\footnote{\cite{skiena-2008}}
-\end{enumerate}
-\end{spacing}
+El ordenamiento por mezcla es un algoritmo de ordenación inspirado en la técnica divide y vencerás. Es capaz de ordenar un conjunto de datos a través de, primero, dividir la colección en dos mitades, dividir las sub-colecciones en más mitades hasta que contengan cero o un elemento, ordenar cada sub-colección, unir (\textit{merge}) todas las sub-colecciones de forma ordenada, y, finalmente la colección queda ordenada.\footnote{\cite{skiena-2008}}
 
-\begin{figure}
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\linewidth]{Diagrames/arbolMS.png}
-    \caption{Diagrama de árbol de \textit{Merge Sort}}
+    \includegraphics[width=0.50\linewidth]{Diagrames/arbolMS.png}
+    \caption{Funcionamiento del \textit{Merge Sort}}
     \label{fig:arbolMS}
 \end{figure}
 
-
-\subsection{Concurrencia}
-La concurrencia se refiere a la habilidad de un sistema para ejecutar múltiples tareas al mismo tiempo. \footnote{\cite{magee-2006}}.
-
 \subsection{Ejecución serial y paralela}
-Un \textbf{programa informático} es un conjunto de instrucciones que un sistema informático ejecuta. A su vez, un programa se divide en partes más pequeñas e independientes que llamamos tareas. Cuando las tareas se ejecutan una tras otra durante períodos de tiempo no superpuestos, hablamos de \textbf{ejecución serial}. A veces, la ejecución de una tarea depende del resultado de la tarea anterior. En dicho caso, la tarea bloquea a la siguiente. Esto es la \textbf{computación secuencial}. En contraposición, la \textbf{ejecución paralela }consiste en ejecutar varias tareas simultáneamente. Sin embargo, el paralelismo real solo es posible si el sistema consta de más de una unidad de procesamiento y si las tareas del algoritmo son independientes. \footnote{\cite{bobrov-2023}}
+Un \textbf{programa informático} es un conjunto de instrucciones que un sistema informático ejecuta. A su vez, un programa se divide en partes más pequeñas e independientes que llamamos tareas. Cuando las tareas se ejecutan una tras otra durante períodos de tiempo no superpuestos, hablamos de \textbf{ejecución serial}. A veces, la ejecución de una tarea depende del resultado de la tarea anterior. En dicho caso, la tarea bloquea a la siguiente. Esto es la \textbf{computación secuencial}. En contraposición, la \textbf{ejecución paralela} consiste en ejecutar varias tareas simultáneamente. Sin embargo, el paralelismo real solo es posible si el sistema consta de más de una unidad de procesamiento y si las tareas del algoritmo son independientes. \footnote{\cite{bobrov-2023}} El estudio pretende aplicar el paralelismo a la ordenación por mezcla para aumentar la eficiencia del algoritmo.
 
-La idea es recorrer las dos partes izquierda y derecha del árbol del \textit{Merge Sort} (Figura \ref{fig:arbolMS}) paralelamente para aumentar la eficiencia del algoritmo.
-
-\begin{figure}[htp]
+\begin{figure}
     \centering
-    \includegraphics[width=0.75\linewidth]{Diagrames/serialVsParallel.png}
+    \includegraphics[width=0.65\linewidth]{Diagrames/serialVsParallel.png}
     \caption{Comparación de los diagramas de Gantt (//Nota: Probablemente cambiar por dos árboles mostrando la secuencia de instrucciones)}
     \label{fig:serialVsParallel}
 \end{figure}
 
 \subsection{Iteración y recursividad}
-El paradigma de la \textbf{programación estructurada} considera que todo programa informático está formado por las estructuras de control de Secuencia, Selección y Repetición.\footnote{\cite{extended-learning-institute-no-date}} La recursión es una estructura de repetición.\footnote{\cite{wellesley-college-2000}} Si un programa incorpora una estructura recursiva, quiere decir que hay una función que se llama a sí misma. \footnote{\cite{bhargava-2016}} Toda función recursiva contiene caso recursivo, estructura condicional que llama a la propia función, y un caso base,  que retorna un valor constante o finaliza la función.
+El paradigma de la \textbf{programación estructurada} considera que todo programa informático está formado por las estructuras de control de Secuencia, Selección y Repetición.\footnote{\cite{extended-learning-institute-no-date}} La recursión es una estructura de repetición.\footnote{\cite{wellesley-college-2000}} Si un programa incorpora una estructura recursiva, quiere decir que hay una función que se llama a sí misma. \footnote{\cite{bhargava-2016}} Toda función recursiva contiene caso recursivo, estructura condicional que llama a la propia función, y un caso base,  que retorna un valor constante o finaliza la función. 
 
 \textbf{[\\Nota: añadir gráfico para mostrar la recursión??]}
 
 \subsection{Complejidad}
-Esta investigación evalúa la aplicación de todos estos conceptos al algoritmo de ordenación por mezcla. La eficiencia de un algoritmo de ordenación usualmente se cuantifica en términos de complejidad temporal y espacial. La complejidad temporal es una medida de la variación del tiempo de ejecución de un algoritmo a medida que el tamaño de la entrada crece. El tiempo de ejecución se ve afectado por variables como el soporte físico y lógico (CPU, RAM, lenguaje de programación, SO...)\footnote{\cite{Heineman2008-mw}}Es por ello, que se estudia el comportamiento asintótico de la complejidad, es decir, cuando el tamaño de la entrada $n$ tiende al infinito. Lo hace mediante las funciones del: peor caso posible \(O(n)\), el caso promedio \(\theta(n)\), y el mejor caso posible \(\Omega(n)\). \footnotemark[8] De ahí la notación \textit{Big-O}, que permite comparar algoritmos a través de distintas plataformas y predecir el tiempo de ejecución de un algoritmo.
+Esta investigación evalúa la aplicación de todos estos conceptos al algoritmo de ordenación por mezcla. La eficiencia de un algoritmo de ordenación usualmente se cuantifica en términos de complejidad temporal y espacial. La complejidad temporal es una medida de la variación del tiempo de ejecución de un algoritmo a medida que el tamaño de la entrada crece. El tiempo de ejecución se ve afectado por variables como el soporte físico y lógico (CPU\footnote{Central Processing Unit}, RAM\footnote{Random Access Memory}, lenguaje de programación, SO...)\footnote{\cite{Heineman2008-mw}} Es por ello, que se estudia el comportamiento asintótico de la complejidad, es decir, cuando el tamaño de la entrada $n$ tiende al infinito. Lo hace mediante las funciones del: peor caso posible \(O(n)\), el caso promedio \(\theta(n)\), y el mejor caso posible \(\Omega(n)\). \footnotemark[8] De ahí la notación \textit{Big-O}, que permite comparar algoritmos a través de distintas plataformas y predecir el tiempo de ejecución de un algoritmo.
 
-La complejidad temporal se mide usualmente mediante la función del peor caso posible por varios motivos: es más sencillo de analizar al no ser necesario conocer la distribución de datos de entrada, garantiza el buen funcionamiento del programa en el que se incorpore en caso de situaciones desfavorables... Caracterizar un algoritmo mediante su complejidad \(O(n)\) es una abstracción, ya que se fundamenta en el modelo de Máquina de Acceso Aleatorio, que considera que las \textit{operaciones básicas}, como las aritméticas, lógicas o los accesos a la memoria, duran una sola unidad de tiempo. Asimismo, se considera que cada línea de código es una \textit{instrucción básica} que ejecuta un número constante de operaciones básicas. Los bucles (\lstinline{for}, \lstinline{for, while...} y llamadas a funciones se evalúan sumando sus instrucciones básicas.
+La \textbf{complejidad temporal} se mide normalmente mediante la función del peor caso posible por varios motivos: es más sencillo de analizar al no ser necesario conocer la distribución de datos de entrada, garantiza el buen funcionamiento del programa en el que se incorpore en caso de situaciones desfavorables... (\\NOTA: Más ejemplos!!) Caracterizar un algoritmo mediante su complejidad \(O(n)\) es una abstracción, ya que se fundamenta en el modelo de Máquina de Acceso Aleatorio, que considera que las \textit{operaciones básicas}, como las aritméticas, lógicas o los accesos a la memoria, duran una sola unidad de tiempo. Asimismo, se considera que cada línea de código es una \textit{instrucción básica} que ejecuta un número constante de operaciones básicas. Los bucles (\lstinline{for}, \lstinline{for, while...} y llamadas a funciones se evalúan sumando sus instrucciones básicas.
 
 La notación \textit{Big-O} proporciona un límite superior para el cual una función nunca lo sobrepasará. Esta notación estudia el orden de crecimiento de una función. Formalmente, se define como: dadas dos funciones \(f(n)\), \(g(n)\), entonces \(f(n) = O(g(n))\) siempre que existan las constantes \(c\) y \(n_0\) tal que \(f(n) \leq c\cdot g(n)\), para todo \(n \geq n_0\). Esto significa que para una función \(f(n)\) solo existirá un Big-O \(O(g(n))\) si todos los valores de su entrada \(n\) son inferiores al producto entre una constante \(c\) y una función \(g(n)\), que es el límite superior. De forma que, \(f(n)\) nunca crecerá más que \(g(n)\).
 
