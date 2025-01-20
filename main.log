@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  5 JAN 2025 20:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  19 JAN 2025 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -317,162 +317,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
-Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip54
-\multirow@cntb=\count291
-\multirow@dima=\skip55
-\bigstrutjot=\dimen165
-)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen166
+\col@sep=\dimen165
 \ar@mcellbox=\box53
-\extrarowheight=\dimen167
+\extrarowheight=\dimen166
 \NC@list=\toks25
-\extratabsurround=\skip56
-\backup@length=\skip57
+\extratabsurround=\skip54
+\backup@length=\skip55
 \ar@cellbox=\box54
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
-Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box55
-\beforetitleunit=\skip58
-\aftertitleunit=\skip59
-\ttl@plus=\dimen168
-\ttl@minus=\dimen169
-\ttl@toksa=\toks26
-\titlewidth=\dimen170
-\titlewidthlast=\dimen171
-\titlewidthfirst=\dimen172
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
-\c@blindtext=\count292
-\c@Blindtext=\count293
-\c@blind@countparstart=\count294
-\blind@countxx=\count295
-\blindtext@numBlindtext=\count296
-\blind@countyy=\count297
-\c@blindlist=\count298
-\c@blindlistlevel=\count299
-\c@blindlist@level=\count300
-\blind@listitem=\count301
-\c@blind@listcount=\count302
-\c@blind@levelcount=\count303
-\blind@mathformula=\count304
-\blind@Mathformula=\count305
-\c@blind@randomcount=\count306
-\c@blind@randommax=\count307
-\c@blind@pangramcount=\count308
-\c@blind@pangrammax=\count309
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e
-.sty
-Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count310
- (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-\algocf@hangindent=\skip60
-
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
-Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count311
-) (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
-Package: relsize 2013/03/29 ver 4.1
-)
-\skiptotal=\skip61
-\skiplinenumber=\skip62
-\skiprule=\skip63
-\skiphlne=\skip64
-\skiptext=\skip65
-\skiplength=\skip66
-\algomargin=\skip67
-\skipalgocfslide=\skip68
-\algowidth=\dimen173
-\inoutsize=\dimen174
-\inoutindent=\dimen175
-\interspacetitleruled=\dimen176
-\interspacealgoruled=\dimen177
-\interspacetitleboxruled=\dimen178
-\algocf@ruledwidth=\skip69
-\algocf@inoutbox=\box56
-\algocf@inputbox=\box57
-\AlCapSkip=\skip70
-\AlCapHSkip=\skip71
-\algoskipindent=\skip72
-\algocf@nlbox=\box58
-\algocf@hangingbox=\box59
-\algocf@untilbox=\box60
-\algocf@skipuntil=\skip73
-\algocf@capbox=\box61
-\algocf@lcaptionbox=\skip74
-\algoheightruledefault=\skip75
-\algoheightrule=\skip76
-\algotitleheightruledefault=\skip77
-\algotitleheightrule=\skip78
-\c@algocfline=\count312
-\c@algocfproc=\count313
-\c@algocf=\count314
-\algocf@algoframe=\box62
-\algocf@algobox=\box63
-) (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count315
-\lst@gtempboxa=\box64
-\lst@token=\toks27
-\lst@length=\count316
-\lst@currlwidth=\dimen179
-\lst@column=\count317
-\lst@pos=\count318
-\lst@lostspace=\dimen180
-\lst@width=\dimen181
-\lst@newlines=\count319
-\lst@lineno=\count320
-\lst@maxwidth=\dimen182
-
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count321
-\lst@skipnumbers=\count322
-\lst@framebox=\box65
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
-))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
-Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count323
-\bibleftmargin=\skip79
-\bibindent=\skip80
-\bibparsep=\skip81
-\bibitemsep=\skip82
-\biblabelsep=\skip83
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
-Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
-Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
-\FN@temptoken=\toks28
-\footnotemargin=\dimen183
-\@outputbox@depth=\dimen184
-\FN@tempboxb=\box66
-\FN@tempboxc=\box67
-\footglue=\skip84
-\footnotebaselineskip=\dimen185
-Package footmisc Info: Declaring symbol style bringhurst on input line 696.
-Package footmisc Info: Declaring symbol style chicago on input line 704.
-Package footmisc Info: Declaring symbol style wiley on input line 713.
-Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
-
-Package footmisc Info: Declaring symbol style lamport* on input line 744.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
-.
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
@@ -482,7 +338,254 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-) (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+)
+\everycr=\toks26
+\minrowclearance=\skip56
+\rownum=\count291
+) (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/tools\hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.s
+ty (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count292
+\l__pdf_internal_box=\box55
+))
+Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count293
+\l__tblr_c_int=\count294
+\l__tblr_r_int=\count295
+\l__tblr_d_dim=\dimen167
+\l__tblr_h_dim=\dimen168
+\l__tblr_o_dim=\dimen169
+\l__tblr_p_dim=\dimen170
+\l__tblr_q_dim=\dimen171
+\l__tblr_r_dim=\dimen172
+\l__tblr_s_dim=\dimen173
+\l__tblr_t_dim=\dimen174
+\l__tblr_v_dim=\dimen175
+\l__tblr_w_dim=\dimen176
+\l__tblr_a_box=\box56
+\l__tblr_b_box=\box57
+\l__tblr_c_box=\box58
+\l__tblr_d_box=\box59
+\g__tblr_table_count_int=\count296
+\c@colnum=\count297
+\c@rowcount=\count298
+\c@colcount=\count299
+\abovesep=\dimen177
+\belowsep=\dimen178
+\leftsep=\dimen179
+\rightsep=\dimen180
+\g_tblr_level_int=\count300
+\g__tblr_data_row_key_count_int=\count301
+\g__tblr_data_column_key_count_int=\count302
+\g__tblr_data_cell_key_count_int=\count303
+\g__tblr_array_int=\count304
+\l__tblr_key_count_int=\count305
+\l__tblr_key_quotient_int=\count306
+\l__tblr_key_quotient_two_int=\count307
+\l__tblr_key_remainder_int=\count308
+\g__tblr_data_str_value_count_int=\count309
+\rulewidth=\dimen181
+\l__tblr_strut_dp_dim=\dimen182
+\l__tblr_strut_ht_dim=\dimen183
+\g__tblr_cell_wd_dim=\dimen184
+\g__tblr_cell_ht_dim=\dimen185
+\g__tblr_cell_head_dim=\dimen186
+\g__tblr_cell_foot_dim=\dimen187
+\l__column_target_dim=\dimen188
+\l__tblr_caption_box=\box60
+\l__tblr_caption_left_box=\box61
+\l__tblr_row_head_box=\box62
+\l__tblr_row_foot_box=\box63
+\l__tblr_row_head_foot_dim=\dimen189
+\tablewidth=\dimen190
+\l__tblr_table_firsthead_box=\box64
+\l__tblr_table_middlehead_box=\box65
+\l__tblr_table_lasthead_box=\box66
+\l__tblr_table_firstfoot_box=\box67
+\l__tblr_table_middlefoot_box=\box68
+\l__tblr_table_lastfoot_box=\box69
+\l__tblr_remain_height_dim=\dimen191
+\l__tblr_long_from_int=\count310
+\l__tblr_long_to_int=\count311
+\l__tblr_curr_i_int=\count312
+\l__tblr_prev_i_int=\count313
+\l__tblr_table_page_int=\count314
+\l__tblr_table_head_box=\box70
+\l__tblr_table_foot_box=\box71
+\l__tblr_table_head_foot_dim=\dimen192
+\l__tblr_table_head_body_foot_dim=\dimen193
+\l__tblr_table_box=\box72
+\l__tblr_table_hlines_box=\box73
+\l__tblr_hline_box=\box74
+\l__tblr_row_box=\box75
+\l__tblr_col_o_wd_dim=\dimen194
+\l__tblr_col_b_wd_dim=\dimen195
+\l__tblr_hline_leftskip_dim=\dimen196
+\l__tblr_hline_rightskip_dim=\dimen197
+\l__tblr_row_ht_dim=\dimen198
+\l__tblr_row_dp_dim=\dimen199
+\l__tblr_row_abovesep_dim=\dimen256
+\l__tblr_row_belowsep_dim=\dimen257
+\l__tblr_row_vlines_box=\box76
+\l__tblr_vline_box=\box77
+\l__tblr_cell_box=\box78
+\l__row_upper_dim=\dimen258
+\l__row_lower_dim=\dimen259
+\l__row_vpace_dim=\dimen260
+\l__tblr_vline_aboveskip_dim=\dimen261
+\l__tblr_vline_belowskip_dim=\dimen262
+\l__tblr_cell_wd_dim=\dimen263
+\l__tblr_cell_ht_dim=\dimen264
+\l__tblr_diag_box=\box79
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box80
+\beforetitleunit=\skip57
+\aftertitleunit=\skip58
+\ttl@plus=\dimen265
+\ttl@minus=\dimen266
+\ttl@toksa=\toks27
+\titlewidth=\dimen267
+\titlewidthlast=\dimen268
+\titlewidthfirst=\dimen269
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count315
+\c@Blindtext=\count316
+\c@blind@countparstart=\count317
+\blind@countxx=\count318
+\blindtext@numBlindtext=\count319
+\blind@countyy=\count320
+\c@blindlist=\count321
+\c@blindlistlevel=\count322
+\c@blindlist@level=\count323
+\blind@listitem=\count324
+\c@blind@listcount=\count325
+\c@blind@levelcount=\count326
+\blind@mathformula=\count327
+\blind@Mathformula=\count328
+\c@blind@randomcount=\count329
+\c@blind@randommax=\count330
+\c@blind@pangramcount=\count331
+\c@blind@pangrammax=\count332
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e
+.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count333
+ (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip59
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count334
+) (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip60
+\skiplinenumber=\skip61
+\skiprule=\skip62
+\skiphlne=\skip63
+\skiptext=\skip64
+\skiplength=\skip65
+\algomargin=\skip66
+\skipalgocfslide=\skip67
+\algowidth=\dimen270
+\inoutsize=\dimen271
+\inoutindent=\dimen272
+\interspacetitleruled=\dimen273
+\interspacealgoruled=\dimen274
+\interspacetitleboxruled=\dimen275
+\algocf@ruledwidth=\skip68
+\algocf@inoutbox=\box81
+\algocf@inputbox=\box82
+\AlCapSkip=\skip69
+\AlCapHSkip=\skip70
+\algoskipindent=\skip71
+\algocf@nlbox=\box83
+\algocf@hangingbox=\box84
+\algocf@untilbox=\box85
+\algocf@skipuntil=\skip72
+\algocf@capbox=\box86
+\algocf@lcaptionbox=\skip73
+\algoheightruledefault=\skip74
+\algoheightrule=\skip75
+\algotitleheightruledefault=\skip76
+\algotitleheightrule=\skip77
+\c@algocfline=\count335
+\c@algocfproc=\count336
+\c@algocf=\count337
+\algocf@algoframe=\box87
+\algocf@algobox=\box88
+) (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count338
+\lst@gtempboxa=\box89
+\lst@token=\toks28
+\lst@length=\count339
+\lst@currlwidth=\dimen276
+\lst@column=\count340
+\lst@pos=\count341
+\lst@lostspace=\dimen277
+\lst@width=\dimen278
+\lst@newlines=\count342
+\lst@lineno=\count343
+\lst@maxwidth=\dimen279
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count344
+\lst@skipnumbers=\count345
+\lst@framebox=\box90
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count346
+\bibleftmargin=\skip78
+\bibindent=\skip79
+\bibparsep=\skip80
+\bibitemsep=\skip81
+\biblabelsep=\skip82
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
+\FN@temptoken=\toks29
+\footnotemargin=\dimen280
+\@outputbox@depth=\dimen281
+\FN@tempboxb=\box91
+\FN@tempboxc=\box92
+\footglue=\skip83
+\footnotebaselineskip=\dimen282
+Package footmisc Info: Declaring symbol style bringhurst on input line 699.
+Package footmisc Info: Declaring symbol style chicago on input line 707.
+Package footmisc Info: Declaring symbol style wiley on input line 716.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 727.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 747.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 768
+.
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -520,8 +623,8 @@ LaTeX Info: Redefining \hbar on input line 50.
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks29
-\inpenc@posthook=\toks30
+\inpenc@prehook=\toks30
+\inpenc@posthook=\toks31
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -530,98 +633,6 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-))
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
-ision.tex)
-Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
-
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
-sty
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
-y
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common.tex
-\pgfutil@everybye=\toks31
-\pgfutil@tempdima=\dimen186
-\pgfutil@tempdimb=\dimen187
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--latex.def
-\pgfutil@abb=\box68
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
-code.tex
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
-))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
-sty
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
-sty
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s.code.tex
-Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
-
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-libraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks34
-))
-\pgf@x=\dimen188
-\pgf@y=\dimen189
-\pgf@xa=\dimen190
-\pgf@ya=\dimen191
-\pgf@xb=\dimen192
-\pgf@yb=\dimen193
-\pgf@xc=\dimen194
-\pgf@yc=\dimen195
-\pgf@xd=\dimen196
-\pgf@yd=\dimen197
-\w@pgf@writea=\write3
-\r@pgf@reada=\read3
-\c@pgf@counta=\count324
-\c@pgf@countb=\count325
-\c@pgf@countc=\count326
-\c@pgf@countd=\count327
-\t@pgf@toka=\toks35
-\t@pgf@tokb=\toks36
-\t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count328
-
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
-fg
-File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
-
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-common-pdf.def
-File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-)))
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-ssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count329
-\pgfsyssoftpath@bigbuffer@items=\count330
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-sprotocol.code.tex
-File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
@@ -641,7 +652,98 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+ision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks32
+\pgfutil@tempdima=\dimen283
+\pgfutil@tempdimb=\dimen284
 )
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box93
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks33
+\pgfkeys@temptoks=\toks34
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks35
+))
+\pgf@x=\dimen285
+\pgf@y=\dimen286
+\pgf@xa=\dimen287
+\pgf@ya=\dimen288
+\pgf@xb=\dimen289
+\pgf@yb=\dimen290
+\pgf@xc=\dimen291
+\pgf@yc=\dimen292
+\pgf@xd=\dimen293
+\pgf@yd=\dimen294
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count347
+\c@pgf@countb=\count348
+\c@pgf@countc=\count349
+\c@pgf@countd=\count350
+\t@pgf@toka=\toks36
+\t@pgf@tokb=\toks37
+\t@pgf@tokc=\toks38
+\pgf@sys@id@count=\count351
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count352
+\pgfsyssoftpath@bigbuffer@items=\count353
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 e.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
@@ -652,12 +754,12 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 code.tex)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
-\pgfmath@dimen=\dimen198
-\pgfmath@count=\count331
-\pgfmath@box=\box69
-\pgfmath@toks=\toks38
-\pgfmath@stack@operand=\toks39
-\pgfmath@stack@operation=\toks40
+\pgfmath@dimen=\dimen295
+\pgfmath@count=\count354
+\pgfmath@box=\box94
+\pgfmath@toks=\toks39
+\pgfmath@stack@operand=\toks40
+\pgfmath@stack@operation=\toks41
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex)
@@ -681,59 +783,59 @@ ions.integerarithmetics.code.tex)
 code.tex)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count332
+\c@pgfmathroundto@lastzeros=\count355
 ))
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen199
-\pgf@picmaxx=\dimen256
-\pgf@picminy=\dimen257
-\pgf@picmaxy=\dimen258
-\pgf@pathminx=\dimen259
-\pgf@pathmaxx=\dimen260
-\pgf@pathminy=\dimen261
-\pgf@pathmaxy=\dimen262
-\pgf@xx=\dimen263
-\pgf@xy=\dimen264
-\pgf@yx=\dimen265
-\pgf@yy=\dimen266
-\pgf@zx=\dimen267
-\pgf@zy=\dimen268
+\pgf@picminx=\dimen296
+\pgf@picmaxx=\dimen297
+\pgf@picminy=\dimen298
+\pgf@picmaxy=\dimen299
+\pgf@pathminx=\dimen300
+\pgf@pathmaxx=\dimen301
+\pgf@pathminy=\dimen302
+\pgf@pathmaxy=\dimen303
+\pgf@xx=\dimen304
+\pgf@xy=\dimen305
+\pgf@yx=\dimen306
+\pgf@yy=\dimen307
+\pgf@zx=\dimen308
+\pgf@zy=\dimen309
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen269
-\pgf@path@lasty=\dimen270
+\pgf@path@lastx=\dimen310
+\pgf@path@lasty=\dimen311
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen271
-\pgf@shorten@start@additional=\dimen272
+\pgf@shorten@end@additional=\dimen312
+\pgf@shorten@start@additional=\dimen313
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box70
-\pgf@hbox=\box71
-\pgf@layerbox@main=\box72
-\pgf@picture@serial@count=\count333
+\pgfpic=\box95
+\pgf@hbox=\box96
+\pgf@layerbox@main=\box97
+\pgf@picture@serial@count=\count356
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen273
+\pgflinewidth=\dimen314
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 etransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen274
-\pgf@pt@y=\dimen275
-\pgf@pt@temp=\dimen276
+\pgf@pt@x=\dimen315
+\pgf@pt@y=\dimen316
+\pgf@pt@temp=\dimen317
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 equick.code.tex
@@ -750,14 +852,14 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 earrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen277
+\pgfarrowsep=\dimen318
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen278
-\pgf@sys@shading@range@num=\count334
-\pgf@shadingcount=\count335
+\pgf@max=\dimen319
+\pgf@sys@shading@range@num=\count357
+\pgf@shadingcount=\count358
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -766,7 +868,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box73
+\pgfexternal@startupbox=\box98
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 elayers.code.tex
@@ -787,7 +889,7 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box74
+\pgfnodeparttextbox=\box99
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
@@ -796,8 +898,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen279
-\pgf@nodesepend=\dimen280
+\pgf@nodesepstart=\dimen320
+\pgf@nodesepend=\dimen321
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-1-18.sty
@@ -815,10 +917,10 @@ ty
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
 code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen281
-\pgffor@skip=\dimen282
-\pgffor@stack=\toks41
-\pgffor@toks=\toks42
+\pgffor@iter=\dimen322
+\pgffor@skip=\dimen323
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
 ))
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -827,34 +929,34 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count336
-\pgfplotmarksize=\dimen283
+\pgf@plot@mark@count=\count359
+\pgfplotmarksize=\dimen324
 )
-\tikz@lastx=\dimen284
-\tikz@lasty=\dimen285
-\tikz@lastxsaved=\dimen286
-\tikz@lastysaved=\dimen287
-\tikz@lastmovetox=\dimen288
-\tikz@lastmovetoy=\dimen289
-\tikzleveldistance=\dimen290
-\tikzsiblingdistance=\dimen291
-\tikz@figbox=\box75
-\tikz@figbox@bg=\box76
-\tikz@tempbox=\box77
-\tikz@tempbox@bg=\box78
-\tikztreelevel=\count337
-\tikznumberofchildren=\count338
-\tikznumberofcurrentchild=\count339
-\tikz@fig@count=\count340
+\tikz@lastx=\dimen325
+\tikz@lasty=\dimen326
+\tikz@lastxsaved=\dimen327
+\tikz@lastysaved=\dimen328
+\tikz@lastmovetox=\dimen329
+\tikz@lastmovetoy=\dimen330
+\tikzleveldistance=\dimen331
+\tikzsiblingdistance=\dimen332
+\tikz@figbox=\box100
+\tikz@figbox@bg=\box101
+\tikz@tempbox=\box102
+\tikz@tempbox@bg=\box103
+\tikztreelevel=\count360
+\tikznumberofchildren=\count361
+\tikznumberofcurrentchild=\count362
+\tikz@fig@count=\count363
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count341
-\pgfmatrixcurrentcolumn=\count342
-\pgf@matrix@numberofcolumns=\count343
+\pgfmatrixcurrentrow=\count364
+\pgfmatrixcurrentcolumn=\count365
+\pgf@matrix@numberofcolumns=\count366
 )
-\tikz@expandcount=\count344
+\tikz@expandcount=\count367
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -864,12 +966,12 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 e.tex
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
 .code.tex
-\t@pgfplots@toka=\toks43
-\t@pgfplots@tokb=\toks44
-\t@pgfplots@tokc=\toks45
-\pgfplots@tmpa=\dimen292
-\c@pgfplots@coordindex=\count345
-\c@pgfplots@scanlineindex=\count346
+\t@pgfplots@toka=\toks44
+\t@pgfplots@tokb=\toks45
+\t@pgfplots@tokc=\toks46
+\pgfplots@tmpa=\dimen333
+\c@pgfplots@coordindex=\count368
+\c@pgfplots@scanlineindex=\count369
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
 sysgeneric.code.tex))
@@ -880,9 +982,9 @@ ib\pgfplotsoldpgfsupp_loader.code.tex
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks46
-\t@pgf@tokb=\toks47
-\t@pgf@tokc=\toks48
+\t@pgf@toka=\toks47
+\t@pgf@tokb=\toks48
+\t@pgf@tokc=\toks49
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
 ib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
@@ -894,14 +996,14 @@ e\pgfplotsliststructure.code.tex)
 e\pgfplotsliststructureext.code.tex)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count347
+\c@pgfplotsarray@tmp=\count370
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsmatrix.code.tex)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
 plotstableshared.code.tex
-\c@pgfplotstable@counta=\count348
-\t@pgfplotstable@a=\toks49
+\c@pgfplotstable@counta=\count371
+\t@pgfplotstable@a=\toks50
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsdeque.code.tex)
@@ -913,7 +1015,7 @@ sbinary.data.code.tex))
 sutil.verb.code.tex)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
 arypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count349
+\c@pgfplotslibrarysurf@no=\count372
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
 rypgfplots.surfshading.pgfsys-pdftex.def)))
@@ -945,16 +1047,16 @@ hs.code.tex)
 z/libraries\tikzlibrarydecorations.code.tex
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 decorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen293
-\pgfdecoratedremainingdistance=\dimen294
-\pgfdecoratedinputsegmentcompleteddistance=\dimen295
-\pgfdecoratedinputsegmentremainingdistance=\dimen296
-\pgf@decorate@distancetomove=\dimen297
-\pgf@decorate@repeatstate=\count350
-\pgfdecorationsegmentamplitude=\dimen298
-\pgfdecorationsegmentlength=\dimen299
+\pgfdecoratedcompleteddistance=\dimen334
+\pgfdecoratedremainingdistance=\dimen335
+\pgfdecoratedinputsegmentcompleteddistance=\dimen336
+\pgfdecoratedinputsegmentremainingdistance=\dimen337
+\pgf@decorate@distancetomove=\dimen338
+\pgf@decorate@repeatstate=\count373
+\pgfdecorationsegmentamplitude=\dimen339
+\pgfdecorationsegmentlength=\dimen340
 )
-\tikz@lib@dec@box=\box79
+\tikz@lib@dec@box=\box104
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
@@ -966,13 +1068,13 @@ z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
 ions\pgflibrarydecorations.pathreplacing.code.tex))
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
 rarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count351
-\pgfplots@xmin@reg=\dimen300
-\pgfplots@xmax@reg=\dimen301
-\pgfplots@ymin@reg=\dimen302
-\pgfplots@ymax@reg=\dimen303
-\pgfplots@zmin@reg=\dimen304
-\pgfplots@zmax@reg=\dimen305
+\pgfplots@numplots=\count374
+\pgfplots@xmin@reg=\dimen341
+\pgfplots@xmax@reg=\dimen342
+\pgfplots@ymin@reg=\dimen343
+\pgfplots@ymax@reg=\dimen344
+\pgfplots@zmin@reg=\dimen345
+\pgfplots@zmax@reg=\dimen346
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryplotmarks.code.tex
@@ -987,68 +1089,63 @@ Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen306
-\captionmargin=\dimen307
-\caption@leftmargin=\dimen308
-\caption@rightmargin=\dimen309
-\caption@width=\dimen310
-\caption@indent=\dimen311
-\caption@parindent=\dimen312
-\caption@hangindent=\dimen313
+\caption@tempdima=\dimen347
+\captionmargin=\dimen348
+\caption@leftmargin=\dimen349
+\caption@rightmargin=\dimen350
+\caption@width=\dimen351
+\caption@indent=\dimen352
+\caption@parindent=\dimen353
+\caption@hangindent=\dimen354
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count352
-\c@continuedfloat=\count353
+\c@caption@flags=\count375
+\c@continuedfloat=\count376
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen314
-\WF@size=\dimen315
-\c@WF@wrappedlines=\count354
-\WF@box=\box80
-\WF@everypar=\toks50
+\wrapoverhang=\dimen355
+\WF@size=\dimen356
+\c@WF@wrappedlines=\count377
+\WF@box=\box105
+\WF@everypar=\toks51
 Package: wrapfig 2003/01/31  v 3.6
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count355
-\float@exts=\toks51
-\float@box=\box81
-\@float@everytoks=\toks52
-\@floatcapt=\box82
+\c@float@type=\count378
+\float@exts=\toks52
+\float@box=\box106
+\@float@everytoks=\toks53
+\@floatcapt=\box107
 )
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count356
-\l__pdf_internal_box=\box83
-) (main.aux
+(main.aux
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1088,17 +1185,17 @@ LaTeX Info: Redefining \% on input line 88.
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count357
-\scratchdimen=\dimen316
-\scratchbox=\box84
-\nofMPsegments=\count358
-\nofMParguments=\count359
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count360
-\MPscratchDim=\dimen317
-\MPnumerator=\count361
-\makeMPintoPDFobject=\count362
-\everyMPtoPDFconversion=\toks54
+\scratchcounter=\count379
+\scratchdimen=\dimen357
+\scratchbox=\box108
+\nofMPsegments=\count380
+\nofMParguments=\count381
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count382
+\MPscratchDim=\dimen358
+\MPnumerator=\count383
+\makeMPintoPDFobject=\count384
+\everyMPtoPDFconversion=\toks55
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1110,13 +1207,22 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 88.
+Package hyperref Info: Link coloring ON on input line 93.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-\c@lstlisting=\count363
-\c@maskedRefs=\count364
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.s
+ty
+Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+))
+\c@lstlisting=\count385
+\c@maskedRefs=\count386
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/apacite\spanish.apc
 File: spanish.apc 2013/07/21 v6.03 apacite language file
@@ -1181,73 +1287,77 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \newpage
+l.120 \newpage
                [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 124.
 <Diagrames/arbolMS.png, id=130, 516.7305pt x 379.4175pt>
 File: Diagrames/arbolMS.png Graphic file (type png)
 <use Diagrames/arbolMS.png>
-Package pdftex.def Info: Diagrames/arbolMS.png  used on input line 128.
+Package pdftex.def Info: Diagrames/arbolMS.png  used on input line 133.
 (pdftex.def)             Requested size: 213.39568pt x 156.69112pt.
  [2 <./Diagrames/arbolMS.png>]
 <Diagrames/serialVsParallel.png, id=147, 455.301pt x 151.767pt>
 File: Diagrames/serialVsParallel.png Graphic file (type png)
 <use Diagrames/serialVsParallel.png>
-Package pdftex.def Info: Diagrames/serialVsParallel.png  used on input line 138
+Package pdftex.def Info: Diagrames/serialVsParallel.png  used on input line 143
 .
 (pdftex.def)             Requested size: 277.41176pt x 92.47351pt.
  [3 <./Diagrames/serialVsParallel.png>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-51.
+56.
  (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-Overfull \hbox (22.0931pt too wide) in paragraph at lines 186--187
- [][] 
- []
-
-[4] [5]
-<Diagrames/arbolBinarioMSRSn8.png, id=223, 903.375pt x 390.258pt>
+) [4] [5] [6]
+<Diagrames/arbolBinarioMSRSn8.png, id=232, 903.375pt x 390.258pt>
 File: Diagrames/arbolBinarioMSRSn8.png Graphic file (type png)
 <use Diagrames/arbolBinarioMSRSn8.png>
 Package pdftex.def Info: Diagrames/arbolBinarioMSRSn8.png  used on input line 2
-49.
+54.
 (pdftex.def)             Requested size: 341.43437pt x 147.50162pt.
- [6 <./Diagrames/arbolBinarioMSRSn8.png>]
+ [7 <./Diagrames/arbolBinarioMSRSn8.png>]
 <Diagrames/arbolBinarioLenght.png, id=246, 730.6497pt x 332.442pt>
 File: Diagrames/arbolBinarioLenght.png Graphic file (type png)
 <use Diagrames/arbolBinarioLenght.png>
 Package pdftex.def Info: Diagrames/arbolBinarioLenght.png  used on input line 2
-67.
+72.
 (pdftex.def)             Requested size: 202.72523pt x 92.23598pt.
 <Diagrames/arbolBinario_MSRS.png, id=247, 708.9687pt x 390.9807pt>
 File: Diagrames/arbolBinario_MSRS.png Graphic file (type png)
 <use Diagrames/arbolBinario_MSRS.png>
 Package pdftex.def Info: Diagrames/arbolBinario_MSRS.png  used on input line 27
-3.
+8.
 (pdftex.def)             Requested size: 202.72523pt x 111.80054pt.
- [7 <./Diagrames/arbolBinarioLenght.png> <./Diagrames/arbolBinario_MSRS.png>]
+ [8 <./Diagrames/arbolBinarioLenght.png> <./Diagrames/arbolBinario_MSRS.png>]
 <Diagrames/ejecucionMSIS.png, id=259, 477.7047pt x 449.5194pt>
 File: Diagrames/ejecucionMSIS.png Graphic file (type png)
 <use Diagrames/ejecucionMSIS.png>
-Package pdftex.def Info: Diagrames/ejecucionMSIS.png  used on input line 303.
+Package pdftex.def Info: Diagrames/ejecucionMSIS.png  used on input line 307.
 (pdftex.def)             Requested size: 213.39568pt x 200.80028pt.
 <Diagrames/arbolMSISirregular.png, id=261, 781.2387pt x 405.4347pt>
 File: Diagrames/arbolMSISirregular.png Graphic file (type png)
 <use Diagrames/arbolMSISirregular.png>
 Package pdftex.def Info: Diagrames/arbolMSISirregular.png  used on input line 3
-30.
-(pdftex.def)             Requested size: 341.43437pt x 177.19165pt.
- [8] [9 <./Diagrames/ejecucionMSIS.png> <./Diagrames/arbolMSISirregular.png>]
-<Diagrames/forkJoinPool.png, id=304, 1146.9249pt x 622.9674pt>
+17.
+(pdftex.def)             Requested size: 298.75264pt x 155.04424pt.
+ [9] [10 <./Diagrames/ejecucionMSIS.png> <./Diagrames/arbolMSISirregular.png>]
+<Diagrames/forkJoinPool.png, id=298, 1146.9249pt x 622.9674pt>
 File: Diagrames/forkJoinPool.png Graphic file (type png)
 <use Diagrames/forkJoinPool.png>
-Package pdftex.def Info: Diagrames/forkJoinPool.png  used on input line 344.
-(pdftex.def)             Requested size: 362.77525pt x 197.04375pt.
- [10] [11 <./Diagrames/forkJoinPool.png>] [12] [13] (main.bbl
+Package pdftex.def Info: Diagrames/forkJoinPool.png  used on input line 331.
+(pdftex.def)             Requested size: 320.0935pt x 173.85933pt.
+ [11 <./Diagrames/forkJoinPool.png>] [12]
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+ [13] [14] [15] (main.bbl [16]
 Underfull \hbox (badness 1917) in paragraph at lines 87--101
 []\T1/ptm/m/n/10 [ELI], E. L. I., y [NO-VA], N. V. C. C.  (s.f.[]).  \T1/ptm/m/
 it/10 Reading: Struc-tu-red Pro-gram-ming.  \T1/ptm/m/n/10 Des-
@@ -1259,7 +1369,13 @@ Underfull \hbox (badness 3189) in paragraph at lines 87--101
 rning [] .com / sanjacinto [] -computerapps / chapter /
  []
 
-[14]) [15] (main.aux
+
+Underfull \hbox (badness 1931) in paragraph at lines 113--128
+\T1/cmtt/m/n/10 .github [] .io / files / Thread % 20Pools % 20and % 20Work % 20
+Queues [] .pdf$[][]   \T1/ptm/m/n/10 (CS 272 Soft-wa-re
+ []
+
+[17]) [18] (main.aux
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 )
@@ -1268,16 +1384,48 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B6E87D1694832E695FA6F9B06AFE6785;3106.
+(rerunfilecheck)             Checksum: 9EA51319BDCF71658C371201A6E5CDB8;3159.
  ) 
 Here is how much of TeX's memory you used:
- 38362 strings out of 474486
- 859582 string characters out of 5743756
- 2037542 words of memory out of 5000000
- 59842 multiletter control sequences out of 15000+600000
- 630803 words of font info for 121 fonts, out of 8000000 for 9000
+ 40907 strings out of 474485
+ 924601 string characters out of 5743735
+ 2027542 words of memory out of 5000000
+ 62359 multiletter control sequences out of 15000+600000
+ 632156 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,18n,107p,1389b,2187s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,19n,101p,1488b,2227s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
+t, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1361,9 +1509,9 @@ TeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (16 pages, 1434758 bytes).
+Output written on main.pdf (19 pages, 1449038 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
- 191 named destinations out of 1000 (max. 500000)
+ 679 PDF objects out of 1000 (max. 8388607)
+ 204 named destinations out of 1000 (max. 500000)
  221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

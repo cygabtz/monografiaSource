@@ -100,6 +100,33 @@ extended-learning-institute-no-date}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Engle%
+}{%
+Engle%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+engle_2022}
+\APACinsertmetastar {%
+engle_2022}%
+\begin{APACrefauthors}%
+Engle, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Thread Pools and Work Queues.} {Thread pools and work queues.}
+\newblock
+\begin{APACrefURL}
+  \url{https://usf-cs272-spring2022.github.io/files/Thread%20Pools%20and%20Work%20Queues.pdf}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{CS 272 Software Development, Department of Computer Science,
+  University of San Francisco, Contact: sjengle@cs.usfca.edu}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {{ForkJoinPool} (java {SE} 10 \& {JDK} 10 )}}{%
 \APACcitebtitle {{ForkJoinPool} (java {SE} 10 \& {JDK} 10 )}}{%
 {\protect \APACyear {{\protect \bibnodate {}}}}%
@@ -169,28 +196,30 @@ Knuth, D\BPBI E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Magee%
-\ \BBA {} Kramer%
+Kumar%
 }{%
-Magee%
-\ \BBA {} Kramer%
+Kumar%
 }{%
-{\protect \APACyear {2006}}%
+{\protect \APACyear {2024}}%
 }]{%
-magee-2006}
+kumar_2024}
 \APACinsertmetastar {%
-magee-2006}%
+kumar_2024}%
 \begin{APACrefauthors}%
-Magee, J.%
-\BCBT {}\ \BBA {} Kramer, J.%
+Kumar, R.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{2006}.
+\APACrefYearMonthDay{2024}{}{}.
 \newblock
-\APACrefbtitle {{Concurrency}} {{Concurrency}}.
+\APACrefbtitle {A Deep Dive into Java’s ForkJoinPool Mechanics.} {A deep dive
+  into java’s forkjoinpool mechanics.}
 \newblock
-\APACaddressPublisher{}{John Wiley \& Sons}.
+\begin{APACrefURL}
+  \url{https://medium.com/@reetesh043/a-deep-dive-into-javas-forkjoinpool-mechanics-556f82d160fb}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Medium, Contact: reetesh043@medium.com}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -217,6 +246,33 @@ McMillan, M.%
   structures and algorithms using c\#}\ (\BPG~42–43).
 \newblock
 \APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Oracle}%
+}{%
+{Oracle}%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+OracleExecutorService}
+\APACinsertmetastar {%
+OracleExecutorService}%
+\begin{APACrefauthors}%
+{Oracle}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {ExecutorService (Java Platform SE 8).} {Executorservice (java
+  platform se 8).}
+\newblock
+\begin{APACrefURL}
+  \url{https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ExecutorService.html}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accedido: 19-ene-2025}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
