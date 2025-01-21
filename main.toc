@@ -10,13 +10,12 @@
 \contentsline {subsection}{\numberline {2.2}Merge Sort Iterativo Serial (MSIS)}{9}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Complejidad temporal}{9}{subsubsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.3}Merge Sort Recursivo Paralelo (MSRP)}{11}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Merge Sort Iterativo Paralelo (MSIP)}{14}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Parte experimental}{16}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Procedimiento}{16}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Entorno}{16}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Discusión de resultados}{17}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Comparación}{17}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Conclusión}{17}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Bibliografía}{17}{section.5}%
-\contentsline {section}{Referencias}{17}{section.5}%
-\contentsline {section}{\numberline {6}Anexo}{18}{section.6}%
+\contentsline {subsection}{\numberline {2.4}Merge Sort Iterativo Paralelo (MSIP)}{15}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Experimentación}{18}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Procedimiento}{18}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Discusión de resultados}{19}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Comparación}{19}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Conclusión}{19}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Bibliografía}{19}{section.5}%
+\contentsline {section}{Referencias}{19}{section.5}%
+\contentsline {section}{\numberline {6}Anexo}{20}{section.6}%
