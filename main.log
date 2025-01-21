@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  21 JAN 2025 01:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  21 JAN 2025 07:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -586,7 +586,7 @@ Package: apacite 2013/07/21 v6.03 APA citation
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
-Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
 \FN@temptoken=\toks29
 \footnotemargin=\dimen280
 \@outputbox@depth=\dimen281
@@ -594,13 +594,13 @@ Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
 \FN@tempboxc=\box92
 \footglue=\skip83
 \footnotebaselineskip=\dimen282
-Package footmisc Info: Declaring symbol style bringhurst on input line 699.
-Package footmisc Info: Declaring symbol style chicago on input line 707.
-Package footmisc Info: Declaring symbol style wiley on input line 716.
-Package footmisc Info: Declaring symbol style lamport-robust on input line 727.
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
 
-Package footmisc Info: Declaring symbol style lamport* on input line 747.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 768
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
 .
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
@@ -1406,14 +1406,21 @@ LaTeX Info: Redefining \% on input line 13.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 06CE357728ED06EB63ADAFF9AFE40BF1;3051.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 4618CFEF7FA136311E43C5EAE1F0A430;3071
+(rerunfilecheck)             After:  06CE357728ED06EB63ADAFF9AFE40BF1;3051.
  ) 
 Here is how much of TeX's memory you used:
- 41210 strings out of 474485
- 933605 string characters out of 5743735
+ 41210 strings out of 474486
+ 933453 string characters out of 5743756
  2028542 words of memory out of 5000000
- 62650 multiletter control sequences out of 15000+600000
+ 62649 multiletter control sequences out of 15000+600000
  635331 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,101p,1488b,2272s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1532,7 +1539,7 @@ TeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 1462308 bytes).
+Output written on main.pdf (21 pages, 1462304 bytes).
 PDF statistics:
  693 PDF objects out of 1000 (max. 8388607)
  216 named destinations out of 1000 (max. 500000)
