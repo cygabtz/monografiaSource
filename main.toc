@@ -14,8 +14,8 @@
 \contentsline {section}{\numberline {3}Experimentación}{18}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Procedimiento}{18}{subsection.3.1}%
 \contentsline {section}{\numberline {4}Discusión de resultados}{19}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Comparación}{19}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Conclusión}{19}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Bibliografía}{19}{section.5}%
-\contentsline {section}{Referencias}{19}{section.5}%
-\contentsline {section}{\numberline {6}Anexo}{20}{section.6}%
+\contentsline {subsection}{\numberline {4.1}Comparación}{21}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Conclusión}{21}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Bibliografía}{21}{section.5}%
+\contentsline {section}{Referencias}{21}{section.5}%
+\contentsline {section}{\numberline {6}Anexo}{22}{section.6}%

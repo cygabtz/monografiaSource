@@ -621,6 +621,153 @@ Para la realización de una comparación empírica de los cuatro algoritmos (MSR
 
 \section{Discusión de resultados}
 
+En la Tabla se presentan los resultados obtenidos en los tests realizados.
+
+\begin{table}[h]
+	\centering
+	\begin{tblr}{
+			cells = {c},
+			row{1} = {Alto},
+			hlines,
+			vlines,
+		}
+		Tamaño      & Tiempo MSRS (ms)      & Tiempo MSIS (ms)     & Tiempo MSRP (ms)     & Tiempo MSIP (ms)       \\
+		10          & 0,005     & 0,009     & 0,217     & 0,842      \\
+		45          & 0,008     & 0,013     & 0,227     & 0,654      \\
+		100         & 0,006     & 0,009     & 0,230     & 0,629      \\
+		450         & 0,024     & 0,023     & 0,265     & 0,704      \\
+		1.000       & 0,054     & 0,049     & 0,330     & 0,893      \\
+		4.500       & 0,275     & 0,247     & 0,530     & 1,762      \\
+		10.000      & 0,636     & 0,592     & 0,936     & 3,204      \\
+		45.000      & 3,067     & 2,774     & 2,137     & 13,043     \\
+		100.000     & 6,855     & 6,301     & 2,765     & 33,804     \\
+		450.000     & 32,441    & 30,049    & 7,527     & 134,608    \\
+		1.000.000   & 74,761    & 68,275    & 14,576    & 322,416    \\
+		4.500.000   & 354,405   & 332,042   & 62,903    & 1.498,327  \\
+		10.000.000  & 804,113   & 749,785   & 142,320   & 3.200,823  \\
+		45.000.000  & 3.825,093 & 3.570,820 & 678,702   & 15.648,251 \\
+		100.000.000 & 8.534,543 & 7.889,013 & 1.535,203 & --         
+	\end{tblr}
+	\caption{Media de los tiempos de ejecución en ms} 
+	\label{tab:resultadosSuperMegaDefinitivos}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+			xlabel={Tamaño de la colección},
+			ylabel={Tiempo (ms)},
+			legend pos=north west,
+			grid=major,
+			width=12cm,
+			height=8cm,
+			xtick={1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15},
+			xticklabels={$10$, $$, $10^{2}$, $$, $10^{3}$, $$, $10^{4}$, $$, $10^{5}$, $$, $10^{6}$, $$, $10^{7}$, $$, $10^{8}$},
+			ytickmin=0,
+			ytickmax=17000,
+			]
+			\addplot coordinates {
+				(1, 0.005) (2, 0.008) (3, 0.006) (4, 0.024) (5, 0.054) (6, 0.275) (7, 0.636) (8, 3.067) (9, 6.855) (10, 32.441) (11, 74.761) (12, 354.405) (13, 804.113) (14, 3825.093) (15, 8534.543)
+			};
+			\addlegendentry{MSRS}
+			
+			\addplot coordinates {
+				(1, 0.009) (2, 0.013) (3, 0.009) (4, 0.023) (5, 0.049) (6, 0.247) (7, 0.592) (8, 2.774) (9, 6.301) (10, 30.049) (11, 68.275) (12, 332.042) (13, 749.785) (14, 3570.820) (15, 7889.013)
+			};
+			\addlegendentry{MSIS}
+			
+			\addplot coordinates {
+				(1, 0.217) (2, 0.227) (3, 0.230) (4, 0.265) (5, 0.330) (6, 0.530) (7, 0.936) (8, 2.137) (9, 2.765) (10, 7.527) (11, 14.576) (12, 62.903) (13, 142.320) (14, 678.702) (15, 1535.203)
+			};
+			\addlegendentry{MSRP}
+			
+			\addplot coordinates {
+				(1, 0.842) (2, 0.654) (3, 0.629) (4, 0.704) (5, 0.893) (6, 1.762) (7, 3.204) (8, 13.043) (9, 33.804) (10, 134.608) (11, 322.416) (12, 1498.327) (13, 3200.823) (14, 15648.251)
+			};
+			\addlegendentry{MSIP}
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Media de los tiempos de ejecución en ms} 
+	\label{fig:graficoMegaFinal}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+			xlabel={Tamaño de la colección},
+			ylabel={Tiempo (ms)},
+			legend pos=north west,
+			grid=major,
+			width=12cm,
+			height=8cm,
+			xtick={1, 2, 3, 4, 5},
+			xticklabels={$10$, $$, $10^{2}$, $$, $10^{3}$}
+			]
+			\addplot coordinates {
+				(1, 0.005) (2, 0.008) (3, 0.006) (4, 0.024) (5, 0.054)
+			};
+			\addlegendentry{MSRS}
+			
+			\addplot coordinates {
+				(1, 0.009) (2, 0.013) (3, 0.009) (4, 0.023) (5, 0.049)
+			};
+			\addlegendentry{MSIS}
+			
+			\addplot coordinates {
+				(1, 0.217) (2, 0.227) (3, 0.230) (4, 0.265) (5, 0.330)
+			};
+			\addlegendentry{MSRP}
+			
+			\addplot coordinates {
+				(1, 0.842) (2, 0.654) (3, 0.629) (4, 0.704) (5, 0.893)
+			};
+			\addlegendentry{MSIP}
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Media de los tiempos de ejecución en ms para tamaños pequeños} 
+	\label{fig:tamPeq}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+		\begin{axis}[
+			xlabel={Tamaño de la colección},
+			ylabel={Tiempo (ms)},
+			legend pos=north west,
+			grid=major,
+			width=12cm,
+			height=8cm,
+			xtick={1, 2, 3, 4, 5},
+			xticklabels={$10$, $$, $10^{2}$, $$, $10^{3}$, $$, $10^{4}$, $$, $10^{5}$, $$}
+			]
+			\addplot coordinates {
+				(1, 0.005) (2, 0.008) (3, 0.006) (4, 0.024) (5, 0.054) (6, 0.275) (7, 0.636) (8, 3.067) (9, 6.855) (10, 32.441)
+			};
+			\addlegendentry{MSRS}
+			
+			\addplot coordinates {
+				(1, 0.009) (2, 0.013) (3, 0.009) (4, 0.023) (5, 0.049) (6, 0.247) (7, 0.592) (8, 2.774) (9, 6.301) (10, 30.049)
+			};
+			\addlegendentry{MSIS}
+			
+			\addplot coordinates {
+				(1, 0.217) (2, 0.227) (3, 0.230) (4, 0.265) (5, 0.330) (6, 0.530) (7, 0.936) (8, 2.137) (9, 2.765) (10, 7.527)
+			};
+			\addlegendentry{MSRP}
+			
+			\addplot coordinates {
+				(1, 0.842) (2, 0.654) (3, 0.629) (4, 0.704) (5, 0.893) (6, 1.762) (7, 3.204) (8, 13.043) (9, 33.804) (10, 134.608)
+			};
+			\addlegendentry{MSIP}
+		\end{axis}
+	\end{tikzpicture}
+	\caption{Media de los tiempos de ejecución en ms para tamaños medianos} 
+	\label{fig:tamMed}
+\end{figure}
+
 \subsection{Comparación}
 \subsection{Conclusión}
 
