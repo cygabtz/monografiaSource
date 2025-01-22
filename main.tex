@@ -121,11 +121,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introducción}
 En el día a día usamos estructuras de datos ordenadas, como la lista de contactos del teléfono, en los almacenes para la gestión de inventario, en los resultados de una búsqueda en internet, etc. El proceso de colocar los datos en un cierto orden se llama ordenación.\footnote{\cite{knuth-1997}} La ordenación es una operación común en los sistemas informáticos y ha sido ampliamente estudiada.\footnote{\cite{McMillan-2007}} Aun así, no existe un algoritmo de ordenación perfecto. Actualmente, se siguen desarrollando, y además estos relacionan una gran variedad de conceptos de informática, como la concurrencia, el paralelismo, la ejecución serial, la iteración o la recursión.
+Algunos algoritmos ordenación comunes son la ordenación de burbuja, por insersción, rápido (\textit{quicksort}).
+%%167 words
 
 La finalidad de esta investigación evaluar holísticamente cuatro implementaciones del algoritmo de ordenación Merge Sort en términos de complejidad temporal y espacial, del peor caso; tiempos de ejecución y memoria usados; además de la naturaleza específica de cada implementación. Concretamente, se comparan el Merge Sort Iterativo Serial (MSIS), el Merge Sort Recursivo Serial (MSRS), el Merge Sort Recursivo Paralelo (MSRP), y el Merge Sort Iterativo Paralelo (MSIP).
 
+%%64 words
+
+
 \subsection{Merge Sort}
 El ordenamiento por mezcla es un algoritmo de ordenación inspirado en la técnica divide y vencerás. Es capaz de ordenar un conjunto de datos a través de, primero, dividir la colección en dos mitades, dividir las sub-colecciones en más mitades hasta que contengan cero o un elemento, ordenar cada sub-colección, unir (\textit{merge}) todas las sub-colecciones de forma ordenada, y, finalmente la colección queda ordenada.\footnote{\cite{skiena-2008}}
+
+%%130 words
 
 \begin{figure}[h]
     \centering
@@ -135,7 +142,9 @@ El ordenamiento por mezcla es un algoritmo de ordenación inspirado en la técni
 \end{figure}
 
 \subsection{Ejecución serial y paralela}
-Un \textbf{programa informático} es un conjunto de instrucciones que un sistema informático ejecuta. A su vez, un programa se divide en partes más pequeñas e independientes que llamamos tareas. Cuando las tareas se ejecutan una tras otra durante períodos de tiempo no superpuestos, hablamos de \textbf{ejecución serial}. A veces, la ejecución de una tarea depende del resultado de la tarea anterior. En dicho caso, la tarea bloquea a la siguiente. Esto es la \textbf{computación secuencial}. En contraposición, la \textbf{ejecución paralela} consiste en ejecutar varias tareas simultáneamente. Sin embargo, el paralelismo real solo es posible si el sistema consta de más de una unidad de procesamiento y si las tareas del algoritmo son independientes. \footnote{\cite{bobrov-2023}} El estudio pretende aplicar el paralelismo a la ordenación por mezcla para aumentar la eficiencia del algoritmo.
+Un \textbf{programa informático} es un conjunto de instrucciones que un sistema informático ejecuta. A su vez, un programa se divide en partes más pequeñas e independientes que llamamos tareas. Cuando las tareas se ejecutan una tras otra durante períodos de tiempo no superpuestos, hablamos de \textbf{ejecución serial}. A veces, la ejecución de una tarea depende del resultado de la tarea anterior. En dicho caso, la tarea bloquea a la siguiente. Esto es la \textbf{computación secuencial}. En contraposición, la \textbf{ejecución paralela} consiste en ejecutar varias tareas simultáneamente. Sin embargo, el paralelismo real solo es posible si el sistema consta de más de una unidad de procesamiento y si las tareas del algoritmo son independientes. \footnote{\cite{bobrov-2023}} Este estudio pretende aplicar el paralelismo a la ordenación por mezcla para aumentar la eficiencia del algoritmo.
+
+%%76
 
 \begin{figure}
     \centering
@@ -146,6 +155,8 @@ Un \textbf{programa informático} es un conjunto de instrucciones que un sistema
 
 \subsection{Iteración y recursividad}
 El paradigma de la \textbf{programación estructurada} considera que todo programa informático está formado por las estructuras de control de Secuencia, Selección y Repetición.\footnote{\cite{extended-learning-institute-no-date}} La recursión es una estructura de repetición.\footnote{\cite{wellesley-college-2000}} Si un programa incorpora una estructura recursiva, quiere decir que hay una función que se llama a sí misma. \footnote{\cite{bhargava-2016}} Toda función recursiva contiene caso recursivo, estructura condicional que llama a la propia función, y un caso base,  que retorna un valor constante o finaliza la función. 
+
+%%
 
 \textbf{[\\Nota: añadir gráfico para mostrar la recursión??]}
 
@@ -621,7 +632,7 @@ Para la realización de una comparación empírica de los cuatro algoritmos (MSR
 
 \section{Discusión de resultados}
 
-En la Tabla se presentan los resultados obtenidos en los tests realizados.
+En la Tabla \ref{tab:resultadosSuperMegaDefinitivos}, se presentan los tiempos de ejecución medios en milisegundos (ms) para los cuatro algoritmos de ordenación: MSRS, MSIS, MSRP y MSIP, en función del tamaño de la colección de datos. Véase las Figura \ref{fig:tamPeq} para los tamaños pequeños (10 -- 1.000) y la Figura \ref{fig:tamMed} para los tamaños medianos (4.500 -- 450.000). Nótese que en el caso del MSIP para \(10^{8}\) no se podido mensurar el tiempo de ejecución en tanto que al ejecutar \lstinline{sort()} se ha producido una excepción \lstinline{OutOfMemoryError} indicando que Java no hay suficiente espacio en el \textit{heap} para colocar un objeto.\footnote{\cite{OracleOutOfMemoryError}} %%Hacer un mejor análisis.
 
 \begin{table}[h]
 	\centering
@@ -651,6 +662,12 @@ En la Tabla se presentan los resultados obtenidos en los tests realizados.
 	\caption{Media de los tiempos de ejecución en ms} 
 	\label{tab:resultadosSuperMegaDefinitivos}
 \end{table}
+
+El MSRS muestra un rendimiento excelente en colecciones pequeñas y medianas, con tiempos de ejecución que aumentan de manera lineal conforme crece el tamaño de la colección. A partir de $10^$
+
+El MSIS, presenta un rendimiento muy similar al MSRS para colecciones pequeñas y medianas. Sin embargo a partir del tamaño 4500 el MSIS torna ligeramente más rápido, exceptuando el tamaño de $10^{8}$ donde el MSRS es 
+
+Sin embargo, en colecciones grandes, el MSIS es ligeramente más rápido que el MSRS, lo que sugiere que la implementación iterativa puede ser más eficiente en ciertos casos.
 
 \begin{figure}[H]
 	\centering

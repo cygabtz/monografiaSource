@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  22 JAN 2025 01:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  22 JAN 2025 09:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -586,7 +586,7 @@ Package: apacite 2013/07/21 v6.03 APA citation
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
-Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
 \FN@temptoken=\toks29
 \footnotemargin=\dimen280
 \@outputbox@depth=\dimen281
@@ -594,13 +594,13 @@ Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
 \FN@tempboxc=\box92
 \footglue=\skip83
 \footnotebaselineskip=\dimen282
-Package footmisc Info: Declaring symbol style bringhurst on input line 699.
-Package footmisc Info: Declaring symbol style chicago on input line 707.
-Package footmisc Info: Declaring symbol style wiley on input line 716.
-Package footmisc Info: Declaring symbol style lamport-robust on input line 727.
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
 
-Package footmisc Info: Declaring symbol style lamport* on input line 747.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 768
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
 .
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
@@ -1296,18 +1296,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 <Diagrames/arbolMS.png, id=125, 516.7305pt x 379.4175pt>
 File: Diagrames/arbolMS.png Graphic file (type png)
 <use Diagrames/arbolMS.png>
-Package pdftex.def Info: Diagrames/arbolMS.png  used on input line 132.
+Package pdftex.def Info: Diagrames/arbolMS.png  used on input line 140.
 (pdftex.def)             Requested size: 213.39568pt x 156.69112pt.
  [2 <./Diagrames/arbolMS.png>]
 <Diagrames/serialVsParallel.png, id=142, 455.301pt x 151.767pt>
 File: Diagrames/serialVsParallel.png Graphic file (type png)
 <use Diagrames/serialVsParallel.png>
-Package pdftex.def Info: Diagrames/serialVsParallel.png  used on input line 142
+Package pdftex.def Info: Diagrames/serialVsParallel.png  used on input line 152
 .
 (pdftex.def)             Requested size: 277.41176pt x 92.47351pt.
  [3 <./Diagrames/serialVsParallel.png>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-55.
+67.
  (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [4] [5] [6]
@@ -1315,38 +1315,38 @@ File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 File: Diagrames/arbolBinarioMSRSn8.png Graphic file (type png)
 <use Diagrames/arbolBinarioMSRSn8.png>
 Package pdftex.def Info: Diagrames/arbolBinarioMSRSn8.png  used on input line 2
-53.
+65.
 (pdftex.def)             Requested size: 341.43437pt x 147.50162pt.
  [7 <./Diagrames/arbolBinarioMSRSn8.png>]
 <Diagrames/arbolBinarioLenght.png, id=241, 730.6497pt x 332.442pt>
 File: Diagrames/arbolBinarioLenght.png Graphic file (type png)
 <use Diagrames/arbolBinarioLenght.png>
 Package pdftex.def Info: Diagrames/arbolBinarioLenght.png  used on input line 2
-71.
+83.
 (pdftex.def)             Requested size: 202.72523pt x 92.23598pt.
 <Diagrames/arbolBinario_MSRS.png, id=242, 708.9687pt x 390.9807pt>
 File: Diagrames/arbolBinario_MSRS.png Graphic file (type png)
 <use Diagrames/arbolBinario_MSRS.png>
-Package pdftex.def Info: Diagrames/arbolBinario_MSRS.png  used on input line 27
-7.
+Package pdftex.def Info: Diagrames/arbolBinario_MSRS.png  used on input line 28
+9.
 (pdftex.def)             Requested size: 202.72523pt x 111.80054pt.
  [8 <./Diagrames/arbolBinarioLenght.png> <./Diagrames/arbolBinario_MSRS.png>]
 <Diagrames/ejecucionMSIS.png, id=254, 477.7047pt x 449.5194pt>
 File: Diagrames/ejecucionMSIS.png Graphic file (type png)
 <use Diagrames/ejecucionMSIS.png>
-Package pdftex.def Info: Diagrames/ejecucionMSIS.png  used on input line 306.
+Package pdftex.def Info: Diagrames/ejecucionMSIS.png  used on input line 318.
 (pdftex.def)             Requested size: 213.39568pt x 200.80028pt.
 <Diagrames/arbolMSISirregular.png, id=256, 781.2387pt x 405.4347pt>
 File: Diagrames/arbolMSISirregular.png Graphic file (type png)
 <use Diagrames/arbolMSISirregular.png>
 Package pdftex.def Info: Diagrames/arbolMSISirregular.png  used on input line 3
-16.
+28.
 (pdftex.def)             Requested size: 298.75264pt x 155.04424pt.
  [9] [10 <./Diagrames/ejecucionMSIS.png> <./Diagrames/arbolMSISirregular.png>]
 <Diagrames/forkJoinPool.png, id=293, 1146.9249pt x 622.9674pt>
 File: Diagrames/forkJoinPool.png Graphic file (type png)
 <use Diagrames/forkJoinPool.png>
-Package pdftex.def Info: Diagrames/forkJoinPool.png  used on input line 330.
+Package pdftex.def Info: Diagrames/forkJoinPool.png  used on input line 342.
 (pdftex.def)             Requested size: 320.0935pt x 173.85933pt.
  [11 <./Diagrames/forkJoinPool.png>] [12]
 > Step: init table outer spec.
@@ -1371,7 +1371,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
  [16] [17]
-Overfull \hbox (75.0016pt too wide) in paragraph at lines 612--613
+Overfull \hbox (75.0016pt too wide) in paragraph at lines 624--625
 []\T1/ptm/m/n/10 Se ge-ne-ran las lon-gi-tu-des cre-cien-tes de las co-lec-cio-
 nes de en-tra-da si-guien-do la se-cuen-cia $\OML/ztmcm/m/it/10 n \OT1/ztmcm/m/
 n/10 = 10\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 45\OML/ztmcm/m/it/10 ; \OT1/ztm
@@ -1394,7 +1394,7 @@ Package tabularray Warning: Table width is too small, need 2.0051pt more!
 
 > Step: build the whole table.
 
-Overfull \hbox (2.0051pt too wide) in paragraph at lines 650--651
+Overfull \hbox (2.0051pt too wide) in paragraph at lines 662--663
  [][] 
  []
 
@@ -1428,10 +1428,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 06CE357728ED06EB63ADAFF9AFE40BF1;3051.
  ) 
 Here is how much of TeX's memory you used:
- 41415 strings out of 474485
- 939246 string characters out of 5743735
+ 41415 strings out of 474486
+ 939094 string characters out of 5743756
  2028542 words of memory out of 5000000
- 62849 multiletter control sequences out of 15000+600000
+ 62848 multiletter control sequences out of 15000+600000
  637499 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,101p,1488b,2290s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1550,9 +1550,9 @@ TeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (23 pages, 1478004 bytes).
+Output written on main.pdf (23 pages, 1479495 bytes).
 PDF statistics:
- 709 PDF objects out of 1000 (max. 8388607)
+ 712 PDF objects out of 1000 (max. 8388607)
  222 named destinations out of 1000 (max. 500000)
  213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
