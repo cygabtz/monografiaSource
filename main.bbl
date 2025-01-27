@@ -1,6 +1,30 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Azpitarte%
+}{%
+Azpitarte%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+Santamaria2024}
+\APACinsertmetastar {%
+Santamaria2024}%
+\begin{APACrefauthors}%
+Azpitarte, M\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {C\'digo fuente (Source code).} {C\'digo fuente (source code).}
+\newblock
+\APAChowpublished {\url{https://www.idpucm.com/codigo-fuente-source-code/}}.
+\newblock
+\APACrefnote{Instituto de Derecho Parlamentario (IDP)}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Bhargava%
 }{%
 Bhargava%
@@ -69,6 +93,29 @@ College, W.%
 \begin{APACrefURL}
   \url{https://cs111.wellesley.edu/archive/cs111_spring00/public_html/lectures/iteration.html}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Correa%
+}{%
+Correa%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+Correa2024}
+\APACinsertmetastar {%
+Correa2024}%
+\begin{APACrefauthors}%
+Correa, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {Big O notation o notaci\'on Big O: Todo lo que necesitas saber
+  2024.} {Big o notation o notaci\'on big o: Todo lo que necesitas saber 2024.}
+\newblock
+\begin{APACrefURL} \url{https://developero.io/blog/big-o} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -249,6 +296,35 @@ McMillan, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Mohan%
+\ \BBA {} Kapoor%
+}{%
+Mohan%
+\ \BBA {} Kapoor%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+shoolini2025}
+\APACinsertmetastar {%
+shoolini2025}%
+\begin{APACrefauthors}%
+Mohan, D.%
+\BCBT {}\ \BBA {} Kapoor, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {Priori vs. Posteriori Analysis: Deep Dive.} {Priori vs.
+  posteriori analysis: Deep dive.}
+\newblock
+\APAChowpublished
+  {\url{https://dmj.one/edu/su/course/csu083/theory/priori-posteriori-analysis}}.
+\newblock
+\APACrefnote{CSU083 (Design and Analysis of Algorithm), Shoolini University}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 {Oracle}%
 }{%
 {Oracle}%
@@ -273,6 +349,55 @@ OracleExecutorService}%
   \end{APACrefURL}
 \newblock
 \APACrefnote{Accedido: 19-ene-2025}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pandey%
+}{%
+Pandey%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+pandey2008study}
+\APACinsertmetastar {%
+pandey2008study}%
+\begin{APACrefauthors}%
+Pandey, R\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Study and Comparison of various sorting algorithms}
+  {Study and comparison of various sorting algorithms}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Science and Engineering}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Puntambekar%
+}{%
+Puntambekar%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+puntambekar2020analysis}
+\APACinsertmetastar {%
+puntambekar2020analysis}%
+\begin{APACrefauthors}%
+Puntambekar, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2020}.
+\newblock
+\APACrefbtitle {Analysis and Design of Algorithms} {Analysis and design of
+  algorithms}.
+\newblock
+\APACaddressPublisher{}{Amazon Digital Services LLC - KDP Print US}.
+\newblock
+\begin{APACrefURL} \url{https://books.google.es/books?id=fOUbEAAAQBAJ}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -325,6 +450,56 @@ Sedgewick, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Singh%
+}{%
+Singh%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+singhhandbook}
+\APACinsertmetastar {%
+singhhandbook}%
+\begin{APACrefauthors}%
+Singh, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{{\protect \bibnodate {}}}.
+\newblock
+\APACrefbtitle {A Handbook of Algorithms} {A handbook of algorithms}.
+\newblock
+\APACaddressPublisher{}{N.B. Singh}.
+\newblock
+\begin{APACrefURL} \url{https://books.google.es/books?id=ALIMEQAAQBAJ}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sipser%
+}{%
+Sipser%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+Sipser1997}
+\APACinsertmetastar {%
+Sipser1997}%
+\begin{APACrefauthors}%
+Sipser, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1997}.
+\newblock
+\APACrefbtitle {Introduction to the Theory of Computation} {Introduction to the
+  theory of computation}.
+\newblock
+\APACaddressPublisher{Boston, MA}{PWS Publishing}.
+\newblock
+\APACrefnote{Definition 7.2}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Skiena%
 }{%
 Skiena%
@@ -373,17 +548,35 @@ OracleSplittableRandom}%
 \APACcitebtitle {{System (Java Platform SE 8 )}}}{%
 \APACcitebtitle {{System (Java Platform SE 8 )}}}{%
 {\protect \APACyear {2024}}%
-}]{%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
 OracleSystem}
 \APACinsertmetastar {%
 OracleSystem}%
 \APACrefbtitle {{System (Java Platform SE 8 )}.} {{System (Java Platform SE 8
   )}.}
 \newblock
-\APACrefYearMonthDay{2024}{9}{}.
+\APACrefYearMonthDay{2024{\protect \BCnt {1}}}{9}{}.
 \newblock
 \begin{APACrefURL}
   \url{https://docs.oracle.com/javase/8/docs/api/java/lang/System.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {{System (Java Platform SE 8 )}}}{%
+\APACcitebtitle {{System (Java Platform SE 8 )}}}{%
+{\protect \APACyear {2024}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+OracleOutOfMemoryError}
+\APACinsertmetastar {%
+OracleOutOfMemoryError}%
+\APACrefbtitle {{System (Java Platform SE 8 )}.} {{System (Java Platform SE 8
+  )}.}
+\newblock
+\APACrefYearMonthDay{2024{\protect \BCnt {2}}}{9}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/memleaks002.html}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  22 JAN 2025 09:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  27 JAN 2025 10:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -603,58 +603,13 @@ Package footmisc Info: Declaring symbol style lamport* on input line 744.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
 .
 )
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
-Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
-\symbold=\mathgroup4
-\symitalic=\mathgroup5
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
-LaTeX Info: Redefining \hbar on input line 50.
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks30
-\inpenc@posthook=\toks31
-)
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
-2.
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplotstable.
+sty
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+ision.tex)
+Package: pgfplotstable 2021/05/15 v1.18.1 Table typesetting and Pretty-printing
+ (1.18.1)
 
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-))
-(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
 ision.tex)
@@ -667,7 +622,7 @@ sty
 y
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
-\pgfutil@everybye=\toks32
+\pgfutil@everybye=\toks30
 \pgfutil@tempdima=\dimen283
 \pgfutil@tempdimb=\dimen284
 )
@@ -692,12 +647,12 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks33
-\pgfkeys@temptoks=\toks34
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 libraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks35
+\pgfkeys@tmptoks=\toks33
 ))
 \pgf@x=\dimen285
 \pgf@y=\dimen286
@@ -715,9 +670,9 @@ libraryfiltered.code.tex
 \c@pgf@countb=\count348
 \c@pgf@countc=\count349
 \c@pgf@countd=\count350
-\t@pgf@toka=\toks36
-\t@pgf@tokb=\toks37
-\t@pgf@tokc=\toks38
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
 \pgf@sys@id@count=\count351
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
@@ -757,9 +712,9 @@ r.code.tex
 \pgfmath@dimen=\dimen295
 \pgfmath@count=\count354
 \pgfmath@box=\box94
-\pgfmath@toks=\toks39
-\pgfmath@stack@operand=\toks40
-\pgfmath@stack@operation=\toks41
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex)
@@ -919,8 +874,8 @@ code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen322
 \pgffor@skip=\dimen323
-\pgffor@stack=\toks42
-\pgffor@toks=\toks43
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 ))
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
@@ -966,9 +921,9 @@ File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 e.tex
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
 .code.tex
-\t@pgfplots@toka=\toks44
-\t@pgfplots@tokb=\toks45
-\t@pgfplots@tokc=\toks46
+\t@pgfplots@toka=\toks42
+\t@pgfplots@tokb=\toks43
+\t@pgfplots@tokc=\toks44
 \pgfplots@tmpa=\dimen333
 \c@pgfplots@coordindex=\count368
 \c@pgfplots@scanlineindex=\count369
@@ -982,9 +937,9 @@ ib\pgfplotsoldpgfsupp_loader.code.tex
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks47
-\t@pgf@tokb=\toks48
-\t@pgf@tokc=\toks49
+\t@pgf@toka=\toks45
+\t@pgf@tokb=\toks46
+\t@pgf@tokc=\toks47
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
 ib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
@@ -1003,7 +958,7 @@ e\pgfplotsmatrix.code.tex)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
 plotstableshared.code.tex
 \c@pgfplotstable@counta=\count371
-\t@pgfplotstable@a=\toks50
+\t@pgfplotstable@a=\toks48
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsdeque.code.tex)
@@ -1084,6 +1039,62 @@ File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 aryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
+plotstable.code.tex
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
+plotstable.coltype.code.tex)))
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks49
+\inpenc@posthook=\toks50
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+2.
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
@@ -1126,26 +1137,26 @@ LaTeX Info: Redefining \% on input line 13.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1207,7 +1218,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 92.
+Package hyperref Info: Link coloring ON on input line 97.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1278,77 +1289,84 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
-)
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.119 \newpage
-               [1]
+l.30 ...line {section}{Referencias}{25}{section.5}
+                                                  % [1])
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+ [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
-<Diagrames/arbolMS.png, id=125, 516.7305pt x 379.4175pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+<Diagrames/arbolMS.png, id=220, 516.7305pt x 379.4175pt>
 File: Diagrames/arbolMS.png Graphic file (type png)
 <use Diagrames/arbolMS.png>
-Package pdftex.def Info: Diagrames/arbolMS.png  used on input line 140.
+Package pdftex.def Info: Diagrames/arbolMS.png  used on input line 147.
 (pdftex.def)             Requested size: 213.39568pt x 156.69112pt.
- [2 <./Diagrames/arbolMS.png>]
-<Diagrames/serialVsParallel.png, id=142, 455.301pt x 151.767pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3]
+<Diagrames/serialVsParallel.png, id=239, 455.301pt x 151.767pt>
 File: Diagrames/serialVsParallel.png Graphic file (type png)
 <use Diagrames/serialVsParallel.png>
-Package pdftex.def Info: Diagrames/serialVsParallel.png  used on input line 152
+Package pdftex.def Info: Diagrames/serialVsParallel.png  used on input line 160
 .
 (pdftex.def)             Requested size: 277.41176pt x 92.47351pt.
- [3 <./Diagrames/serialVsParallel.png>]
+ [4 <./Diagrames/arbolMS.png> <./Diagrames/serialVsParallel.png>]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-67.
- (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+74.
+
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [4] [5] [6]
-<Diagrames/arbolBinarioMSRSn8.png, id=227, 903.375pt x 390.258pt>
+)
+[5] [6] [7]
+<Diagrames/arbolBinarioMSRSn8.png, id=351, 903.375pt x 390.258pt>
 File: Diagrames/arbolBinarioMSRSn8.png Graphic file (type png)
 <use Diagrames/arbolBinarioMSRSn8.png>
 Package pdftex.def Info: Diagrames/arbolBinarioMSRSn8.png  used on input line 2
-65.
+77.
 (pdftex.def)             Requested size: 341.43437pt x 147.50162pt.
- [7 <./Diagrames/arbolBinarioMSRSn8.png>]
-<Diagrames/arbolBinarioLenght.png, id=241, 730.6497pt x 332.442pt>
+ [8 <./Diagrames/arbolBinarioMSRSn8.png>]
+<Diagrames/arbolBinarioLenght.png, id=364, 730.6497pt x 332.442pt>
 File: Diagrames/arbolBinarioLenght.png Graphic file (type png)
 <use Diagrames/arbolBinarioLenght.png>
 Package pdftex.def Info: Diagrames/arbolBinarioLenght.png  used on input line 2
-83.
+95.
 (pdftex.def)             Requested size: 202.72523pt x 92.23598pt.
-<Diagrames/arbolBinario_MSRS.png, id=242, 708.9687pt x 390.9807pt>
+<Diagrames/arbolBinario_MSRS.png, id=365, 708.9687pt x 390.9807pt>
 File: Diagrames/arbolBinario_MSRS.png Graphic file (type png)
 <use Diagrames/arbolBinario_MSRS.png>
-Package pdftex.def Info: Diagrames/arbolBinario_MSRS.png  used on input line 28
-9.
+Package pdftex.def Info: Diagrames/arbolBinario_MSRS.png  used on input line 30
+1.
 (pdftex.def)             Requested size: 202.72523pt x 111.80054pt.
- [8 <./Diagrames/arbolBinarioLenght.png> <./Diagrames/arbolBinario_MSRS.png>]
-<Diagrames/ejecucionMSIS.png, id=254, 477.7047pt x 449.5194pt>
+ [9 <./Diagrames/arbolBinarioLenght.png> <./Diagrames/arbolBinario_MSRS.png>]
+<Diagrames/ejecucionMSIS.png, id=377, 477.7047pt x 449.5194pt>
 File: Diagrames/ejecucionMSIS.png Graphic file (type png)
 <use Diagrames/ejecucionMSIS.png>
-Package pdftex.def Info: Diagrames/ejecucionMSIS.png  used on input line 318.
+Package pdftex.def Info: Diagrames/ejecucionMSIS.png  used on input line 337.
 (pdftex.def)             Requested size: 213.39568pt x 200.80028pt.
-<Diagrames/arbolMSISirregular.png, id=256, 781.2387pt x 405.4347pt>
+ [10]
+<Diagrames/arbolMSISirregular.png, id=397, 781.2387pt x 405.4347pt>
 File: Diagrames/arbolMSISirregular.png Graphic file (type png)
 <use Diagrames/arbolMSISirregular.png>
 Package pdftex.def Info: Diagrames/arbolMSISirregular.png  used on input line 3
-28.
+50.
 (pdftex.def)             Requested size: 298.75264pt x 155.04424pt.
- [9] [10 <./Diagrames/ejecucionMSIS.png> <./Diagrames/arbolMSISirregular.png>]
-<Diagrames/forkJoinPool.png, id=293, 1146.9249pt x 622.9674pt>
+ [11 <./Diagrames/ejecucionMSIS.png> <./Diagrames/arbolMSISirregular.png>]
+<Diagrames/forkJoinPool.png, id=416, 1146.9249pt x 622.9674pt>
 File: Diagrames/forkJoinPool.png Graphic file (type png)
 <use Diagrames/forkJoinPool.png>
-Package pdftex.def Info: Diagrames/forkJoinPool.png  used on input line 342.
+Package pdftex.def Info: Diagrames/forkJoinPool.png  used on input line 364.
 (pdftex.def)             Requested size: 320.0935pt x 173.85933pt.
- [11 <./Diagrames/forkJoinPool.png>] [12]
+ [12 <./Diagrames/forkJoinPool.png>] [13]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1361,7 +1379,7 @@ Package pdftex.def Info: Diagrames/forkJoinPool.png  used on input line 342.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13] [14] [15]
+[14] [15] [16]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1370,17 +1388,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
- [16] [17]
-Overfull \hbox (75.0016pt too wide) in paragraph at lines 624--625
-[]\T1/ptm/m/n/10 Se ge-ne-ran las lon-gi-tu-des cre-cien-tes de las co-lec-cio-
-nes de en-tra-da si-guien-do la se-cuen-cia $\OML/ztmcm/m/it/10 n \OT1/ztmcm/m/
-n/10 = 10\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 45\OML/ztmcm/m/it/10 ; \OT1/ztm
-cm/m/n/10 100\OML/ztmcm/m/it/10 ; \OT1/ztmcm/m/n/10 450\OML/ztmcm/m/it/10 ; \OT
-1/ztmcm/m/n/10 1000\OML/ztmcm/m/it/10 ::[]\OT1/ztmcm/m/n/10 10[]$\T1/ptm/m/n/10
- .
- []
-
-[18]
+ [17] [18] [19]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1394,29 +1402,49 @@ Package tabularray Warning: Table width is too small, need 2.0051pt more!
 
 > Step: build the whole table.
 
-Overfull \hbox (2.0051pt too wide) in paragraph at lines 662--663
+Overfull \hbox (2.0051pt too wide) in paragraph at lines 684--685
  [][] 
  []
 
-[19] [20] (main.bbl
-Underfull \hbox (badness 1917) in paragraph at lines 87--101
+[20] [21] [22]
+Overfull \hbox (20.18584pt too wide) in paragraph at lines 878--879
+[]\T1/ptm/m/n/10 Aunque las cua-tro im-ple-men-ta-cio-nes mues-tran un com-por-
+ta-mien-to asim-ptó-ti-co linea-logarítmico ($\OML/ztmcm/m/it/10 O\OT1/ztmcm/m/
+n/10 (\OML/ztmcm/m/it/10 n [] n\OT1/ztmcm/m/n/10 )$\T1/ptm/m/n/10 )
+ []
+
+[23] [24] (main.bbl
+Underfull \hbox (badness 1917) in paragraph at lines 134--148
 []\T1/ptm/m/n/10 [ELI], E. L. I., y [NO-VA], N. V. C. C.  (s.f.[]).  \T1/ptm/m/
 it/10 Reading: Struc-tu-red Pro-gram-ming.  \T1/ptm/m/n/10 Des-
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 87--101
+Underfull \hbox (badness 3189) in paragraph at lines 134--148
 \T1/ptm/m/n/10 car-ga-do de [][]$\T1/cmtt/m/n/10 https :// courses [] .lumenlea
 rning [] .com / sanjacinto [] -computerapps / chapter /
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 113--128
+Underfull \hbox (badness 1931) in paragraph at lines 160--175
 \T1/cmtt/m/n/10 .github [] .io / files / Thread % 20Pools % 20and % 20Work % 20
 Queues [] .pdf$[][]   \T1/ptm/m/n/10 (CS 272 Soft-wa-re
  []
 
-[21]) [22] (main.aux
+[25]) [26]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Float too large for page by 683.03577pt on input line 1293.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27] [28] [29] [30] [31] (main.aux
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 )
@@ -1425,16 +1453,44 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 06CE357728ED06EB63ADAFF9AFE40BF1;3051.
+(rerunfilecheck)             Checksum: 02C62CAF8E8725867D65DAB11213146C;6660.
  ) 
 Here is how much of TeX's memory you used:
- 41415 strings out of 474486
- 939094 string characters out of 5743756
- 2028542 words of memory out of 5000000
- 62848 multiletter control sequences out of 15000+600000
- 637499 words of font info for 130 fonts, out of 8000000 for 9000
+ 42452 strings out of 474486
+ 966845 string characters out of 5743756
+ 2383542 words of memory out of 5000000
+ 63534 multiletter control sequences out of 15000+600000
+ 643035 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,19n,101p,1488b,2290s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,21n,115p,1491b,2329s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Hfootnote.33} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.32} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.31} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.30} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.29} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not exis
+t, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Hfootnote.27} has been referenced but does not exis
+t, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1548,11 +1604,12 @@ s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/benit/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/benit/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
 eX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
-eX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/benit/AppData/Local/Programs/MiKT
-eX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (23 pages, 1479495 bytes).
+eX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/benit/AppData/Local/Programs/MiK
+TeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/benit/AppData/Local/Programs/MiK
+TeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (32 pages, 1589270 bytes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
- 222 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1285 PDF objects out of 1440 (max. 8388607)
+ 559 named destinations out of 1000 (max. 500000)
+ 349 words of extra memory for PDF output out of 10000 (max. 10000000)
 
