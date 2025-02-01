@@ -14,45 +14,50 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: bibliografia.bib
+I was expecting an "="---line 109 of file bibliografia.bib
+ :  url 
+ :      {https://www.manning.com/books/grokking-algorithms},
+I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 24 entries,
+You've used 27 entries,
             6951 wiz_defined-function locations,
-            1406 strings with 14344 characters,
-and the built_in function-call counts, 33960 in all, are:
-= -- 4357
-> -- 229
-< -- 1231
-+ -- 1142
-- -- 43
-* -- 1813
-:= -- 5452
-add.period$ -- 97
-call.type$ -- 24
-change.case$ -- 396
+            1423 strings with 14889 characters,
+and the built_in function-call counts, 39827 in all, are:
+= -- 5084
+> -- 276
+< -- 1530
++ -- 1430
+- -- 51
+* -- 2195
+:= -- 6554
+add.period$ -- 108
+call.type$ -- 27
+change.case$ -- 460
 chr.to.int$ -- 0
-cite$ -- 48
-duplicate$ -- 882
-empty$ -- 1784
-format.name$ -- 328
-if$ -- 7156
+cite$ -- 54
+duplicate$ -- 1032
+empty$ -- 2013
+format.name$ -- 408
+if$ -- 8276
 int.to.chr$ -- 0
-int.to.str$ -- 76
+int.to.str$ -- 85
 missing$ -- 0
-newline$ -- 542
-num.names$ -- 160
-pop$ -- 1360
+newline$ -- 618
+num.names$ -- 184
+pop$ -- 1499
 preamble$ -- 1
-purify$ -- 103
+purify$ -- 116
 quote$ -- 0
-skip$ -- 2110
+skip$ -- 2430
 stack$ -- 0
-substring$ -- 1297
-swap$ -- 432
-text.length$ -- 67
+substring$ -- 1609
+swap$ -- 518
+text.length$ -- 75
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2080
+type$ -- 2320
 warning$ -- 0
-while$ -- 133
+while$ -- 160
 width$ -- 0
-write$ -- 616
+write$ -- 713
+(There was 1 error message)

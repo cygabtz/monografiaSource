@@ -1,49 +1,190 @@
 \documentclass{article}
-\usepackage[spanish,es-tabla]{babel}
+\usepackage[spanish,es-tabla, shorthands=off]{babel}
 \usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.17}
 \usepackage{tikz}
-
+\usepackage{array}
+\usepackage{setspace}
+	
 \begin{document}
+	
+	\begin{titlepage}
+		\centering
+		\hfill
+		\vspace{3cm}
+		
+		\hrule
+		\vspace{1cm}
+		\onehalfspacing
+		{\Huge Impacto de la concurrencia en el rendimiento del algoritmo de ordenación \textit{Merge Sort}\par}
+		\vspace{1cm}
+		\hrule
+		
+		\vspace{1cm}
+		{\LARGE ¿En qué medida las técnicas de concurrencia de Java optimizan el \textit{Merge Sort} iterativo y el recursivo? \par}
+		
+		\vspace{1cm}
+		
+		{\scshape\large Monografia de Informática\par}
+		
+		\vspace{8cm}
+		
+		{\large Cómputo de palabras: xxxx \par}
+		{\large Código del alumno: lqv708 \par}
+		
+		
+	\end{titlepage}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	\begin{figure}
 		\centering
 		\begin{tikzpicture}
 			\begin{axis}[
-				xlabel={Tamaño de la colección},
-				ylabel={Tiempo (ms)},
-				legend pos=north west,
-				grid=major,
-				xtick={1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20},
-				xticklabels={$$,$10$, $45$, $100$, $450$, $1,000$, $4,500$, $10,000$, $45,000$, $100,000$, $450,000$, $1,000,000$, $4,500,000$, $10,000,000$, $45,000,000$, $100,000,000$}
+				width=8cm,
+				height=6cm,
+				ymin=0, xmin=0,
+				ymax=45, xmax=60,
 				]
-				\addplot coordinates {
-					(1, 0.005) (2, 0.008) (3, 0.006) (4, 0.024) (5, 0.054) (6, 0.275) (7, 0.636) (8, 3.067) (9, 6.855) (10, 32.441) (11, 74.761) (12, 354.405) (13, 804.113) (14, 3825.093) (15, 8534.543)
-				};
-				\addlegendentry{MSRS}
-				
-				\addplot coordinates {
-					(1, 0.009) (2, 0.013) (3, 0.009) (4, 0.023) (5, 0.049) (6, 0.247) (7, 0.592) (8, 2.774) (9, 6.301) (10, 30.049) (11, 68.275) (12, 332.042) (13, 749.785) (14, 3570.820) (15, 7889.013)
-				};
-				\addlegendentry{MSIS}
-				
-				\addplot coordinates {
-					(1, 0.217) (2, 0.227) (3, 0.230) (4, 0.265) (5, 0.330) (6, 0.530) (7, 0.936) (8, 2.137) (9, 2.765) (10, 7.527) (11, 14.576) (12, 62.903) (13, 142.320) (14, 678.702) (15, 1535.203)
-				};
-				\addlegendentry{MSRP}
-				
-				\addplot coordinates {
-					(1, 0.842) (2, 0.654) (3, 0.629) (4, 0.704) (5, 0.893) (6, 1.762) (7, 3.204) (8, 13.043) (9, 33.804) (10, 134.608) (11, 322.416) (12, 1498.327) (13, 3200.823) (14, 15648.251)
-				};
-				\addlegendentry{MSIP}
+				\addplot[
+					domain=0:8, 
+					samples=100, 
+					color=blue,
+					line width=1pt
+				]{x!};
 			\end{axis}
 		\end{tikzpicture}
-		\caption{Datos de prueba para MSRS, MSIS, MSRP y MSIP}
-		\label{fig:testPilotoMSIP}
+		\label{fig:timeComplexities}
+		\caption{Complejidades temporales}
 	\end{figure}
+	
+	\begin{tikzpicture}
+		\begin{axis}[
+			ticks = none,
+			width=8cm,
+			height=6cm,
+			restrict y to domain=0:10,
+			restrict x to domain=0:10,
+			domain = 0.00:10,
+			xmin = 0,
+			xmax = 11,
+			ymin = 0,
+			ymax = 11.5,
+			]
+			\addplot [
+			samples=100, 
+			color=red,
+			line width=1pt,
+			]
+			{x^2}node[above right=-2pt,,pos=1]{$O(n^2)$};
+			
+			\addplot [
+			samples=100, 
+			color=blue,
+			line width=1pt,
+			]
+			{x}node[above,pos=1]{${O}(n)$};
+			\addplot [
+			samples=100, 
+			color=orange,
+			line width=1pt,
+			]
+			{log2 x}node[above left,pos=1]{${O}(\log{}n)$};
+			
+			\addplot [
+			samples=100, 
+			color=black,
+			line width=1pt,
+			]
+			{x*(log2 x)}node[right,pos=1]{${O}(n\log{}n)$};
+			
+			\addplot [
+			samples=100, 
+			color=magenta,
+			line width=1pt,
+			]
+			{1}node[above,pos=1]{O$(1)$};
+			
+			\addplot [
+			samples=100, 
+			color=cyan,
+			line width=1pt,
+			]
+			{x^3}node[above,pos=1]{${O}(n^3)$};
+			
+		\end{axis}
+	\end{tikzpicture}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\begin{tikzpicture}
+		\begin{axis}[
+			xmin=0, xmax=8,
+			ymin=0, ymax=5,
+			axis lines=middle,
+			xlabel=n, ylabel=Tiempo,
+			legend pos=north west,
+			legend style={font=\small},
+			grid=both,
+			width=8cm,
+			height=6cm,
+			xticklabels={$n_0$},
+			xtick=2,
+			ytick=\empty
+			]
+			\addplot[
+			domain=0:8, 
+			samples=100, 
+			color=blue,
+			line width=1pt
+			]
+			{0.06816*x^5 - 1.25301*x^4 + 8.58526*x^3 - 26.82104*x^2 + 37.54837*x - 17.12774};
+			\node[right] at (axis cs:6,3) {$f(x)$};
+			
+			\addplot[
+			domain=0:8, 
+			samples=100, 
+			color=red,
+			line width=1pt
+			]
+			{0.5*x^2 + 0.25*x - 1};
+			\node[right] at (axis cs:5.5,1.5) {$\Omega(f(x))$};
+			
+			\addplot[
+			domain=0:8, 
+			samples=100, 
+			color=green,
+			line width=1pt
+			]
+			{-0.00556*x^2 + 0.14167*x + 0.43056};
+			\node[right] at (axis cs:3.2,4.5) {$O(f(x))$};
+			
+			
+			\addplot[ 
+			color=black, dashed, thick 
+			] coordinates{(2,0) (2,1.5)};
+		\end{axis}
+	\end{tikzpicture}
+
+
 	
 \end{document}
 

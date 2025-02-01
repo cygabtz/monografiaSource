@@ -1,38 +1,24 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Merge Sort}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Ejecución serial y paralela}{4}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Iteración y recursividad}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Complejidad}{5}{subsection.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}Complejidad temporal}{5}{subsubsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2}Complejidad espacial}{6}{subsubsection.1.4.2}%
-\contentsline {subsubsection}{\numberline {1.4.3}Notación \textit {Big-O}}{6}{subsubsection.1.4.3}%
-\contentsline {section}{\numberline {2}Implementaciones}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Merge Sort Recursivo Serial (MSRS)}{7}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Complejidad temporal}{8}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Complejidad espacial}{9}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}Merge Sort Iterativo Serial (MSIS)}{10}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Complejidad temporal}{11}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Complejidad espacial}{11}{subsubsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}Merge Sort Recursivo Paralelo (MSRP)}{12}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Merge Sort Iterativo Paralelo (MSIP)}{16}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Diseño de la experiencia}{19}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Procedimiento}{19}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Discusión de resultados}{20}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Rendimiento general}{21}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Análisis}{22}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}MSRS (Recursivo Serial)}{22}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}MSIS (Iterativo Serial)}{23}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}MSRP (Recursivo Paralelo)}{23}{subsubsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}MSIP (Iterativo Paralelo)}{23}{subsubsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.3}Conclusión}{24}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Bibliografía}{25}{section.5}%
-\contentsline {section}{Referencias}{25}{section.5}%
-\contentsline {section}{\numberline {6}Anexos}{27}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Anexo A. Código de las implementaciones}{27}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}MSRS (\textit {Merge Sort} Recursivo Serial)}{27}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}MSIS (\textit {Merge Sort} Iterativo Serial)}{27}{subsubsection.6.1.2}%
-\contentsline {subsubsection}{\numberline {6.1.3}\textit {Merge Sort} Recursivo Paralelo}{27}{subsubsection.6.1.3}%
-\contentsline {subsubsection}{\numberline {6.1.4}\textit {Merge Sort} Iterativo Paralelo}{27}{subsubsection.6.1.4}%
-\contentsline {subsection}{\numberline {6.2}Anexo B. Código del \textit {benchmark}}{27}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Anexo C. Resultados completos del \textit {benchmark}}{27}{subsection.6.3}%
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}\textit {Merge Sort}}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Ejecución serial y paralela}{3}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Iteración y recursividad}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Complejidad}{3}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Notación \textit {Big-O}}{5}{subsubsection.1.4.1}%
+\contentsline {section}{\numberline {2}Implementaciones}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Merge Sort Recursivo Serial (MSRS)}{6}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Complejidad temporal}{7}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Merge Sort Iterativo Serial (MSIS)}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Complejidad temporal}{9}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Merge Sort Recursivo Paralelo (MSRP)}{10}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Merge Sort Iterativo Paralelo (MSIP)}{14}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Experimentación}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Procedimiento}{17}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Discusión de resultados}{18}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Rendimiento general}{19}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}MSRS (Recursivo Serial)}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}MSIS (Iterativo Serial)}{20}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}MSRP (Recursivo Paralelo)}{21}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}MSIP (Iterativo Paralelo)}{21}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Conclusión}{22}{section.5}%
+\contentsline {section}{Referencias}{23}{section.5}%

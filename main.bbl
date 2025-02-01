@@ -1,30 +1,6 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Azpitarte%
-}{%
-Azpitarte%
-}{%
-{\protect \APACyear {2024}}%
-}]{%
-Santamaria2024}
-\APACinsertmetastar {%
-Santamaria2024}%
-\begin{APACrefauthors}%
-Azpitarte, M\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2024}{}{}.
-\newblock
-\APACrefbtitle {C\'digo fuente (Source code).} {C\'digo fuente (source code).}
-\newblock
-\APAChowpublished {\url{https://www.idpucm.com/codigo-fuente-source-code/}}.
-\newblock
-\APACrefnote{Instituto de Derecho Parlamentario (IDP)}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Bhargava%
 }{%
 Bhargava%
@@ -44,6 +20,37 @@ Bhargava, A\BPBI Y.%
 \APACrefbtitle {{Grokking algorithms}} {{Grokking algorithms}}.
 \newblock
 \APACaddressPublisher{}{Manning Publications}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Blumofe%
+\ \BBA {} Leiserson%
+}{%
+Blumofe%
+\ \BBA {} Leiserson%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+blumofe1999scheduling}
+\APACinsertmetastar {%
+blumofe1999scheduling}%
+\begin{APACrefauthors}%
+Blumofe, R\BPBI D.%
+\BCBT {}\ \BBA {} Leiserson, C\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Scheduling multithreaded computations by work stealing}
+  {Scheduling multithreaded computations by work stealing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{J ACM}{46}{5}{720--748}.
+\newblock
+\begin{APACrefURL} \url{http://supertech.csail.mit.edu/papers/ft_gateway.pdf}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1145/324133.324234} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -69,6 +76,33 @@ Bobrov, K.%
 \newblock
 \begin{APACrefURL} \url{https://www.manning.com/books/grokking-concurrency}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ching%
+, Phoon%
+\BCBL {}\ \BBA {} Shuku%
+}{%
+Ching%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+ching2023uncertainty}
+\APACinsertmetastar {%
+ching2023uncertainty}%
+\begin{APACrefauthors}%
+Ching, J.%
+, Phoon, K\BHBI K.%
+\BCBL {}\ \BBA {} Shuku, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2023}.
+\newblock
+\APACrefbtitle {Uncertainty, Modeling, and Decision Making in Geotechnics}
+  {Uncertainty, modeling, and decision making in geotechnics}.
+\newblock
+\APACaddressPublisher{}{CRC Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -116,6 +150,32 @@ Correa, J.%
   2024.} {Big o notation o notaci\'on big o: Todo lo que necesitas saber 2024.}
 \newblock
 \begin{APACrefURL} \url{https://developero.io/blog/big-o} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+DataCamp%
+}{%
+DataCamp%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+datacamp2024bigO}
+\APACinsertmetastar {%
+datacamp2024bigO}%
+\begin{APACrefauthors}%
+DataCamp.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {Notación Big O y Guía de Complejidad Temporal: Intuición y
+  matemáticas.} {Notación big o y guía de complejidad temporal: Intuición y
+  matemáticas.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.datacamp.com/es/tutorial/big-o-notation-time-complexity}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -220,6 +280,30 @@ Heineman, G\BPBI T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Jenkov%
+}{%
+Jenkov%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+jenkov2024forkjoinpool}
+\APACinsertmetastar {%
+jenkov2024forkjoinpool}%
+\begin{APACrefauthors}%
+Jenkov, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {Java ForkJoinPool.} {Java forkjoinpool.}
+\newblock
+\begin{APACrefURL}
+  \url{https://jenkov.com/tutorials/java-util-concurrent/java-fork-and-join-forkjoinpool.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Knuth%
 }{%
 Knuth%
@@ -267,6 +351,31 @@ Kumar, R.%
   \end{APACrefURL}
 \newblock
 \APACrefnote{Medium, Contact: reetesh043@medium.com}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Levitin%
+}{%
+Levitin%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+levitin2012introduction}
+\APACinsertmetastar {%
+levitin2012introduction}%
+\begin{APACrefauthors}%
+Levitin, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {Introduction to the design \& analysis of algorithms}
+  {Introduction to the design \& analysis of algorithms}\ (\PrintOrdinal{3rd}\
+  \BEd).
+\newblock
+\APACaddressPublisher{Upper Saddle River, New Jersey}{Pearson Education, Inc.,
+  publishing as Addison-Wesley}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -325,6 +434,35 @@ Mohan, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Molluzzo%
+\ \BBA {} Buckley%
+}{%
+Molluzzo%
+\ \BBA {} Buckley%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+molluzzo1997first}
+\APACinsertmetastar {%
+molluzzo1997first}%
+\begin{APACrefauthors}%
+Molluzzo, J.%
+\BCBT {}\ \BBA {} Buckley, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1997}.
+\newblock
+\APACrefbtitle {A First Course in Discrete Mathematics} {A first course in
+  discrete mathematics}.
+\newblock
+\APACaddressPublisher{}{Waveland Press}.
+\newblock
+\begin{APACrefURL} \url{https://books.google.es/books?id=CdF0DQAAQBAJ}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 {Oracle}%
 }{%
 {Oracle}%
@@ -375,32 +513,6 @@ Pandey, R\BPBI C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Puntambekar%
-}{%
-Puntambekar%
-}{%
-{\protect \APACyear {2020}}%
-}]{%
-puntambekar2020analysis}
-\APACinsertmetastar {%
-puntambekar2020analysis}%
-\begin{APACrefauthors}%
-Puntambekar, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2020}.
-\newblock
-\APACrefbtitle {Analysis and Design of Algorithms} {Analysis and design of
-  algorithms}.
-\newblock
-\APACaddressPublisher{}{Amazon Digital Services LLC - KDP Print US}.
-\newblock
-\begin{APACrefURL} \url{https://books.google.es/books?id=fOUbEAAAQBAJ}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Ramgir%
 \ \BBA {} Samoylov%
 }{%
@@ -447,31 +559,6 @@ Sedgewick, R.%
 \newblock
 \APACaddressPublisher{Boston, MA, Estados Unidos de Am{\'e}rica}{Addison-Wesley
   Educational}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Singh%
-}{%
-Singh%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-singhhandbook}
-\APACinsertmetastar {%
-singhhandbook}%
-\begin{APACrefauthors}%
-Singh, N.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{{\protect \bibnodate {}}}.
-\newblock
-\APACrefbtitle {A Handbook of Algorithms} {A handbook of algorithms}.
-\newblock
-\APACaddressPublisher{}{N.B. Singh}.
-\newblock
-\begin{APACrefURL} \url{https://books.google.es/books?id=ALIMEQAAQBAJ}
-  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
