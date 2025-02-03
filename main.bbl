@@ -20,6 +20,9 @@ Bhargava, A\BPBI Y.%
 \APACrefbtitle {{Grokking algorithms}} {{Grokking algorithms}}.
 \newblock
 \APACaddressPublisher{}{Manning Publications}.
+\newblock
+\begin{APACrefURL} \url{https://www.manning.com/books/grokking-algorithms}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -354,6 +357,32 @@ Kumar, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Landau%
+}{%
+Landau%
+}{%
+{\protect \APACyear {1909}}%
+}]{%
+landau-1909}
+\APACinsertmetastar {%
+landau-1909}%
+\begin{APACrefauthors}%
+Landau, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1909}.
+\newblock
+\APACrefbtitle {Handbuch der Lehre von der Verteilung der Primzahlen} {Handbuch
+  der lehre von der verteilung der primzahlen}\ (\BVOL~1).
+\newblock
+\APACaddressPublisher{Leipzig}{B. G. Teubner}.
+\newblock
+\begin{APACrefURL} \url{https://archive.org/details/handbuchderlehre01landuoft}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Levitin%
 }{%
 Levitin%
@@ -496,9 +525,9 @@ Pandey%
 }{%
 {\protect \APACyear {2008}}%
 }]{%
-pandey2008study}
+pandey-2008}
 \APACinsertmetastar {%
-pandey2008study}%
+pandey-2008}%
 \begin{APACrefauthors}%
 Pandey, R\BPBI C.%
 \end{APACrefauthors}%

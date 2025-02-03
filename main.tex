@@ -38,6 +38,7 @@
 \AtBeginDocument{
 	\renewcommand{\BRetrievedFrom}{}
 }	
+\bibliographystyle{apacite}
 
 %%INTERLINEADO DOBLE
 \renewcommand{\baselinestretch}{2}
@@ -129,7 +130,7 @@
 	
 	\vspace{8cm}
 	
-	{\large Cómputo de palabras: 4241 (con títulos de sección y su correspondiente numeración incluído) \par}
+	{\large Cómputo de palabras: 3990\par}
 	{\large Código del alumno: lqv708 \par}
 	
 	
@@ -141,12 +142,12 @@
 \newpage
 %%%%%%%%%%%%%%%INTRODUCIÓN%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Introducción} %%251 palabras + 2
-En el día a día usamos estructuras de datos ordenadas, como la lista de contactos del teléfono, en los almacenes para la gestión de inventario, en los resultados de una búsqueda en internet... El proceso de colocar datos en un cierto orden se llama ordenación y es una operación común en los sistemas informáticos, ya que facilita su búsqueda posterior.\footnote{\cite{knuth-1997}} Aunque, la ordenación ha sido ampliamente estudiada, no existe un algoritmo de ordenación perfecto.\footnote{\cite{McMillan-2007}} Actualmente, se siguen desarrollando, y además relacionan una variedad de conceptos informáticos, como la concurrencia, el paralelismo, la ejecución serial, la iteración o la recursión. Algunos algoritmos ordenación comunes son la ordenación de burbuja, por inserción, o el ordenamiento rápido (\textit{quicksort}).\footnote{\cite{pandey2008study}}
+\section{Introducción} %%248 palabras + 2
+En el día a día usamos estructuras de datos ordenadas, como la lista de contactos del teléfono, en los almacenes para la gestión de inventario, en los resultados de una búsqueda en internet... El proceso de colocar datos en un cierto orden se llama ordenación y es una operación común en los sistemas informáticos, ya que facilita su búsqueda posterior.\footnote{\cite{knuth-1997}} Aunque, la ordenación ha sido ampliamente estudiada, no existe un algoritmo de ordenación perfecto.\footnote{\cite{McMillan-2007}} Actualmente, se siguen desarrollando, y además relacionan una variedad de conceptos informáticos, como la concurrencia, el paralelismo, la ejecución serial, la iteración o la recursión. Algunos algoritmos ordenación comunes son la ordenación de burbuja, por inserción, o el ordenamiento rápido (\textit{quicksort}).\footnote{\cite{pandey-2008}}
 
-La finalidad de esta investigación evaluar cuatro implementaciones del algoritmo de ordenación \textit{Merge Sort} en términos de \textbf{complejidad temporal} en el peor caso, \textbf{tiempos de ejecución} reales, además, de la naturaleza específica de cada implementación; con el objetivo de responder a la pregunta <<¿En qué medida las técnicas de concurrencia de Java optimizan el \textit{Merge Sort} recursivo e iterativo?>>. Concretamente, se comparan el Merge Sort Iterativo Serial (MSIS) y el Merge Sort Recursivo Serial (MSRS) con sus contrapartes paralelizadas: el Merge Sort Recursivo Paralelo (MSRP) y el Merge Sort Iterativo Paralelo (MSIP).
+La finalidad de esta investigación es evaluar cuatro implementaciones del algoritmo de ordenación \textit{Merge Sort} en términos de \textbf{complejidad temporal} y \textbf{tiempos de ejecución} reales, además, de la naturaleza específica de cada implementación; con el objetivo de responder a la pregunta <<¿En qué medida las técnicas de concurrencia de Java optimizan el \textit{Merge Sort} recursivo e iterativo?>>. Concretamente, se comparan el Merge Sort Iterativo Serial (MSIS) y el Merge Sort Recursivo Serial (MSRS) con sus contrapartes paralelizadas: el Merge Sort Recursivo Paralelo (MSRP) y el Merge Sort Iterativo Paralelo (MSIP).
 
-La evaluación se compone de un \textit{análisis a priori}, basado puramente en la estructura de cada algoritmo sin ejecutarlo y calculando un rendimiento esperado; y de un \textit{análisis a posteriori}, enfocado en medir el rendimiento de un algoritmo para una muestra concreta.\footnote{\cite{shoolini2025}}
+La evaluación se compone de un \textit{análisis a priori}, basado en la estructura de cada algoritmo sin ejecutarlo y calculando un rendimiento esperado; y de un \textit{análisis a posteriori}, enfocado en medir el rendimiento de un algoritmo para una muestra concreta.\footnote{\cite{shoolini2025}}
 
 
 \subsection{\textit{Merge Sort}} %% 62 palabras +3
@@ -162,11 +163,8 @@ La evaluación se compone de un \textit{análisis a priori}, basado puramente en
 
 El ordenamiento por mezcla es un algoritmo basado en la técnica divide y vencerás. Permite ordenar un conjunto de datos a través de, primero, dividir la colección en dos mitades; dividir las sub-colecciones en más mitades hasta que contengan cero o un elemento; ordenar cada una; y, finalmente, unir (\textit{merge}) todas las sub-colecciones de forma ordenada, quedando ordenada la colección.\footnote{\cite{skiena-2008}}
 
-\subsection{Ejecución serial y paralela} %% 127 +5
-Un \textbf{programa informático} es un conjunto de instrucciones que un sistema informático ejecuta. A su vez, un programa se divide en partes más pequeñas e independientes que llamamos tareas. Cuando las tareas se ejecutan una tras otra durante períodos de tiempo no superpuestos, hablamos de \textbf{ejecución serial}. A veces, la ejecución de una tarea depende del resultado de la tarea anterior. En dicho caso, la tarea bloquea a la siguiente: \textbf{computación secuencial}. En contraposición, la \textbf{ejecución paralela} consiste en ejecutar varias tareas simultáneamente. Sin embargo, el paralelismo real solo es posible si el sistema consta de más de una unidad de procesamiento y si las tareas del algoritmo son independientes.\footnote{\cite{bobrov-2023}} Este estudio pretende aplicar el paralelismo a la ordenación por mezcla para aumentar la eficiencia del algoritmo.
-
-
-%%76
+\subsection{Ejecución serial y paralela} %% 100 +5
+Un \textbf{programa informático} es un conjunto de instrucciones que un sistema informático ejecuta. A su vez, un programa se divide en partes más pequeñas e independientes que llamamos tareas. Cuando las tareas se ejecutan una tras otra durante períodos de tiempo no superpuestos, hablamos de \textbf{ejecución serial}. En contraposición, la \textbf{ejecución paralela} consiste en ejecutar varias tareas simultáneamente. Sin embargo, el paralelismo real solo es posible si el sistema consta de más de una unidad de procesamiento y si las tareas del algoritmo son independientes.\footnote{\cite{bobrov-2023}} Este estudio pretende aplicar el paralelismo a la ordenación por mezcla para aumentar su eficiencia.
 
 \begin{figure}[h]
     \centering
@@ -187,10 +185,8 @@ El paradigma de la \textbf{programación estructurada} considera que todo progra
 \end{figure}
 
 
-\subsection{Complejidad} %%210 +2
-Esta investigación evalúa la aplicación de estos conceptos al algoritmo de ordenación por mezcla. La eficiencia de un algoritmo de ordenación usualmente se cuantifica en términos de complejidad temporal y espacial.\footnote{\cite{molluzzo1997first}}
-
-La complejidad temporal es una medida de la variación del tiempo de ejecución de un algoritmo a medida que el tamaño de la entrada $n$ crece. En el caso de un algoritmo de ordenación es la longitud del arreglo.\footnote{\cite{ching2023uncertainty}}
+\subsection{Complejidad} %%197 +2
+La eficiencia de un algoritmo de ordenación usualmente se cuantifica en términos de complejidad temporal y espacial.\footnote{\cite{molluzzo1997first}} La complejidad temporal es una medida de la variación del tiempo de ejecución de un algoritmo a medida que el tamaño de la entrada $n$ crece. En el caso de un algoritmo de ordenación es la longitud del arreglo.\footnote{\cite{ching2023uncertainty}}
 
 Puesto que el tiempo de ejecución se ve afectado por variables como el soporte físico y lógico se estudia el comportamiento asintótico: cuando $n$ tiende al infinito. Este método permite comparar algoritmos entre plataformas distintas.\footnote{\cite{Heineman2008-mw}}
 
@@ -211,6 +207,7 @@ Caracterizar un algoritmo por medio de su complejidad es una abstracción basada
 					xtick=\empty,
 					ytick=\empty,
 					]
+					
 					\addplot[
 					domain=0:8, 
 					samples=100, 
@@ -218,6 +215,7 @@ Caracterizar un algoritmo por medio de su complejidad es una abstracción basada
 					line width=1pt
 					]
 					{0.06816*x^5 - 1.25301*x^4 + 8.58526*x^3 - 26.82104*x^2 + 37.54837*x - 17.12774};
+					
 					\node[right] at (axis cs:6,3) {$f(n)$};
 					
 					\addplot[
@@ -227,6 +225,7 @@ Caracterizar un algoritmo por medio de su complejidad es una abstracción basada
 					line width=1pt
 					]
 					{0.5*x^2 + 0.25*x - 1};
+					
 					\node[right] at (axis cs:5.5,1.5) {$\Omega(f(n))$};
 					
 					\addplot[
@@ -235,7 +234,8 @@ Caracterizar un algoritmo por medio de su complejidad es una abstracción basada
 					color=green,
 					line width=1pt
 					]
-					{-0.00556*x^3 + 0.14167*x + 0.43056};
+					{-0.00556*x^2 + 0.14167*x + 0.43056};
+					
 					\node[right] at (axis cs:3.2,4.5) {$O(f(n))$};
 					
 					\addplot[ 
@@ -313,12 +313,12 @@ Caracterizar un algoritmo por medio de su complejidad es una abstracción basada
 
 Existen tres formas de medir la complejidad temporal expresadas en la función del peor caso \(O(n)\) que mide el tiempo máximo de ejecución que un algoritmo puede necesitar para una entrada $n$; la función del mejor caso \(\Omega(n)\) que mide el tiempo mínimo de ejecución; y, la del caso promedio \(\Theta(n)\) que mide el tiempo de ejecución típico.\footnote{\cite{levitin2012introduction}}
 
-\subsubsection{Notación \textit{Big-O}}%264 +3
+\subsubsection{Notación de Landau}%127 +4
 Normalmente se califica a un algoritmo de ordenación a través de la función del peor caso por su simplicidad y porque garantiza el buen funcionamiento en sistemas críticos y previene problemas de escalabilidad.\footnote{\cite{Correa2024}} Esta será la que se valore para las diferentes implementaciones del \textit{Merge Sort}.
 
- Sean dos funciones \(f(n)\) y \(g(n)\), entonces \(f(n) = O(g(n))\) siempre que existan las constantes \(c\) y \(n_0\) tal que \(f(n) \leq c\cdot g(n)\), para todo \(n \geq n_0\). Esto significa que para una función \(f(n)\) solo existirá un \textit{Big-O} \(O(g(n))\) si todos los valores de su entrada \(n\) son inferiores al producto entre una constante \(c\) y una función \(g(n)\), que es el límite superior. De forma que, \(f(n)\) nunca crecerá más que \(g(n)\).\footnote{\cite{Sipser1997}}
+ Sean dos funciones \(f(n)\) y \(g(n)\), entonces \(f(n) = O(g(n))\) siempre que existan las constantes \(c\) y \(n_0\) tal que \(f(n) \leq c\cdot g(n)\), para todo \(n \geq n_0\). Esto significa que para una función \(f(n)\) solo existirá un \textit{Big-O} \(O(g(n))\) si todos los valores de su entrada \(n\) son inferiores al producto entre una constante \(c\) y una función \(g(n)\), que es el límite superior. De forma que, \(f(n)\) nunca crecerá más que \(g(n)\).\footnote{\cite{Sipser1997}}\footnote{\cite{landau-1909}}
 
-Por ejemplo, se da un algoritmo que toma un tiempo de ejecución \(f(n) = 4n+7\) y queremos saber si se comporta de forma lineal: \(g(n)=n\). Entonces para que \(f(n) = O(g(n))\) se cumpla hay que encontrar un valor \(c\) para el que se cumpla \(4n+7 \leq c\cdot n\). Con \(c=5\), la inecuación se cumple, por tanto: \(f(n) = O(g(n)) = O(n)\), pero solo para \(n \geq n_0\), en este caso \(n\geq 7\) porque: \(4n+7 \leq 5n \space \rightarrow 7 \leq 5n - 4n   \rightarrow 7 \leq n\). De forma que el \textit{Big-O} de \(4n+7\) es \(O(n)\) para cualquier entrada mayor que \(7\). De igual manera \(f(n) = 4n+7\) podría representar el uso de memoria y el procedimiento sería el mismo.
+%%Por ejemplo, se da un algoritmo que toma un tiempo de ejecución \(f(n) = 4n+7\) y queremos saber si se comporta de forma lineal: \(g(n)=n\). Entonces para que \(f(n) = O(g(n))\) se cumpla hay que encontrar un valor \(c\) para el que se cumpla \(4n+7 \leq c\cdot n\). Con \(c=5\), la inecuación se cumple, por tanto: \(f(n) = O(g(n)) = O(n)\), pero solo para \(n \geq n_0\), en este caso \(n\geq 7\) porque: \(4n+7 \leq 5n \space \rightarrow 7 \leq 5n - 4n   \rightarrow 7 \leq n\). De forma que el \textit{Big-O} de \(4n+7\) es \(O(n)\) para cualquier entrada mayor que \(7\).
 
 \begin{figure}[h]
 	\captionsetup{justification=centering}
@@ -355,14 +355,14 @@ Por ejemplo, se da un algoritmo que toma un tiempo de ejecución \(f(n) = 4n+7\)
 		\end{axis}
 	\end{tikzpicture}
 	
-	\caption{Ejemplo de \textit{Big-O}}
+	\caption{Función de ejemplo \(f(n)\) acontada por \textit{Big-O} \(O(n)\) para \(c=5\) y \(n_0=7\)}
 	\label{fig:bigO}
 \end{figure}
 
 \newpage
 \section{Implementaciones} %%2
 
-\subsection{Merge Sort Recursivo Serial (MSRS)} %%291 +6
+\subsection{Merge Sort Recursivo Serial (MSRS)} %%289 +6
 El algoritmo de ordenación por mezcla clásico se basa en el paradigma <<divide y vencerás>>. Es decir, primero se divide un problema en otros subproblemas, se solucionan los subproblemas, y, se combinan para llegar a la solución
 final.\footnote{\cite{Sedgewick2003-cd}}
 
@@ -384,7 +384,7 @@ public static void sort(int[] arr, int[] aux, int left, int right) {
 \end{figure}
 
 
-El algoritmo a estudiar consta de una función \lstinline|sort()| que toma una colección \lstinline|arr|, un índice inicial \lstinline|left| y un índice final \lstinline|right|. (Véase la Figura \ref{fig:MSRS_sort()}) Después calcula el pivote \lstinline|mid| desde donde dividir la colección original \lstinline|arr[]| y se ejecuta una llamada recursiva a \lstinline|sort()| para cada mitad \lstinline|arr[left]... arr[mid]| y \lstinline|arr[mid+1]... arr[right]|.
+El algoritmo a estudiar consta de una función \lstinline|sort()| que toma una colección \lstinline|arr[]|, un índice inicial \lstinline|left| y un índice final \lstinline|right|. (Figura \ref{fig:MSRS_sort()}) Después calcula el pivote \lstinline|mid| desde donde dividir la colección original \lstinline|arr[]| y se ejecuta una llamada recursiva a \lstinline|sort()| para cada mitad \lstinline|arr[left]... arr[mid]| y \lstinline|arr[mid+1]... arr[right]|.
 
 \begin{figure}[h]
     \begin{lstlisting}[language=java, frame=single, numbers=left]
@@ -407,7 +407,8 @@ Finalmente, se unen las mitades mediante la función \lstinline|merge()| de la F
 Todas las implementaciones (MSRS, MSIS, MSRP, MSIP) emplean el mismo método \lstinline|merge()| para unir las sucesivas mitades.
 
 \subsubsection{Complejidad temporal} %%408 +3
-La complejidad temporal del algoritmo será la suma de las complejidades de cada línea. La comprobación del caso base (línea 2, Figura \ref{fig:MSRS_sort()}) y el cálculo del pivote \lstinline|mid| toman tiempo constante \(O(1)\) al ser operaciones básicas. Por último, \lstinline|merge()| (Figura \ref{fig:MSRS_merge()}) toma \(O(n)\) porque en el peor caso se realizarán \lstinline|right + 1 - left| \(=n\) comparaciones en el primer bucle, que es \(O(n)\). Por tanto, el tiempo de ejecución respecto a la entrada por ahora es \(f(n) = 2O(1) + O(n)\), que es igual a \(O(n)\) ya que según la notación \textit{Big-O} se ignoran los términos de menor orden y los factores constantes, puesto que estos no afectan significativamente al crecimiento cuando \(n\) tiende a un número grande.
+
+La complejidad temporal del algoritmo será la suma de las complejidades de cada línea. La comprobación del caso base (línea 2, Figura \ref{fig:MSRS_sort()}) y el cálculo del pivote \lstinline|mid| toman tiempo constante \(O(1)\) al ser operaciones básicas. Por último, \lstinline|merge()| toma \(O(n)\) porque en el peor caso se realizarán \lstinline|right + 1 - left| \(=n\) comparaciones en el primer bucle, que es \(O(n)\). Por tanto, el tiempo de ejecución respecto a la entrada por ahora es \(f(n) = 2O(1) + O(n)\), que es igual a \(O(n)\) ya que según la notación \textit{Big-O} se ignoran los términos de menor orden y los factores constantes, puesto que estos no afectan significativamente al crecimiento cuando \(n\) tiende a un número grande.
 
 \begin{figure}[hbtp]
     \centering
@@ -416,9 +417,9 @@ La complejidad temporal del algoritmo será la suma de las complejidades de cada
     \label{fig:arbol-MSRS-N=8}
 \end{figure}
 
-Lo anterior corresponde a una llamada a \lstinline|sort()|, pero esta función es recursiva, por tanto, hay que determinar cuantas veces se llama a \lstinline|sort()| en función del tamaño de la entrada \(n\). Estos se facilita si rastreamos las llamadas a \lstinline|sort()|, por ejemplo mediante un árbol binario como el de la Figura \ref{fig:arbol-MSRS-N=8} donde cada nodo representa la longitud de la entrada \lstinline|lenght|. Se observa que para 8 llamadas hay tres niveles en el árbol, la relación entre 8 y 3 es que \(log_{2}{3} = 3\) ya que \(8=2^3\). Por extensión, para un \(n\) tamaño de entrada hay \(\log_{2}{n}\) niveles. Esto se cumple siempre que \(n\) sea múltiplo de 2, lo que da lugar a un árbol balanceado como el de Figura \ref{fig:simetriaMSRS}, en caso contrario está desbalanceado y hay llamadas extras. El trabajo realizado en cada nivel \(i\) es \(2^i\cdot \frac{n}{2^i} = n\) como se observa en la Figura \ref{fig:entradaMSRS} donde \(n\) es el tamaño de entrada original. Finalmente, el trabajo \(f(n)\) de una llamada a \lstinline{sort()} es la suma del trabajo en cada nivel, menos el del último nivel porque los casos bases requieren \(O(1)\) al realizarse un \lstinline{return}. Esto es:
+Lo anterior corresponde a una llamada a \lstinline|sort()|, pero esta función es recursiva, por tanto, hay que determinar cuantas veces se llama a \lstinline|sort()| en función del tamaño de la entrada \(n\). Estos se facilita si rastreamos las llamadas a \lstinline|sort()|, por ejemplo mediante un árbol binario como el de la Figura \ref{fig:arbol-MSRS-N=8} donde cada nodo representa la longitud de la entrada \lstinline|lenght|. Se observa que para 8 llamadas hay tres niveles en el árbol, la relación entre 8 y 3 es \(log_{2}{8} = 3\) ya que \(8=2^3\). Por extensión, para un \(n\) tamaño de entrada hay \(\log_{2}{n}\) niveles. Esto se cumple siempre que \(n\) sea múltiplo de 2, lo que da lugar a un árbol balanceado como el de Figura \ref{fig:simetriaMSRS}, en caso contrario está desbalanceado y hay llamadas extras. El trabajo realizado en cada nivel \(i\) es \(2^i\cdot \frac{n}{2^i} = n\) como se observa en la Figura \ref{fig:entradaMSRS} donde \(n\) es el tamaño de entrada original. Finalmente, el trabajo \(f(n)\) de una llamada a \lstinline|sort()| es la suma del trabajo en cada nivel, menos el del último nivel porque los casos bases requieren \(O(1)\) al realizarse un \lstinline|return|; quedando:
 \[f(n) = \sum_{i=0}^{\log_{2}{n} -1} {n} = n\sum_{i=0}^{\log_{2}{n} -1} {1} = n\cdot\log_{2}{n}\]
-A continuación se aplica la definición de la notación \textit{Big-0}, donde \(f(n)=n\log_{2}{n}\) y \(g(n)=n\log{n}\). Existe un \(f(n)=O(n\log{n})\) siempre que: 
+A continuación se aplica la definición de la notación \textit{Big-0} para \(f(n)=n\log_{2}{n}\) y \(g(n)=n\log{n}\). Existe un \(f(n)=O(n\log{n})\) siempre que: 
 \[n\log_{2}{n} \leq c\cdot n\log{n}\]
 Aislamos la constante \(c\):
 \[n\log_{2}{n} \leq c\cdot n\log{n} \longrightarrow c \geq \frac{\log_{2}{n}} {\log_{10}{n}} \longrightarrow c \geq \frac{ \frac{\log_{10}{n}} {\log_{10}{2}} } {\log_{10}{n}} \longrightarrow c \geq \frac{1}{\log{2}} \]
@@ -441,10 +442,10 @@ Esto significa que la complejidad del MSRS se aleja de \(O(n\log{n})\) en un fac
 \end{minipage} 
 \end{figure}
 
-%%281 palabras
-\subsection{Merge Sort Iterativo Serial (MSIS)} %%142 +6
 
-El MSIS es la versión análoga al clásico MSRS, en esta implementación (Figura \ref{fig:MSIS_sort()}) se divide la colección en partes más pequeñas, después las partes adyacentes se unen, y se aumenta el tamaño  de las partes. Estos tres pasos se repiten hasta que la parte tenga el tamaño de la colección original. El primer bucle determina el tamaño \lstinline{lenght} de las partes: \lstinline{size} \(=2, 4, 8..\). El segundo bucle determina el índice \lstinline{left} desde el cual comienza la parte \lstinline{arr[left]...arr[left+size-1]} que será unida a su adyacente \lstinline{arr[mid]...arr[right]} mediante \lstinline{merge()}. Este índice toma valores en intervalos de \lstinline{2*size}. En la Figura \ref{fig:ejecuciónMSIS} se presenta el proceso de ordenación de una colección: las casillas coloreadas representan las sucesivas iteraciones de \lstinline{left} del segundo bucle; las casillas azules corresponden a la respectiva parte izquierda de una iteración; y las verdes la parte derecha.
+\subsection{Merge Sort Iterativo Serial (MSIS)} %%142 +6 
+
+El MSIS es la versión análoga al clásico MSRS, en esta implementación se divide la colección en partes más pequeñas, después las partes adyacentes se unen, y se aumenta el tamaño  de las partes. Estos tres pasos se repiten hasta que la parte tenga el tamaño de la colección original. El primer bucle determina el tamaño de las subcolecciones: \lstinline|size| \(=2, 4, 8..\). El segundo bucle recorre \lstinline|arr[]| en pasos de \lstinline|2*size|, uniendo el subarreglo \lstinline|arr[left]..arr[left+size-1]| a su adyacente \lstinline|arr[mid]...arr[right]| mediante \lstinline|merge()|. El índice \lsc{mid} determina el final del primer arreglo y \lstinline|right| el final del adyacente. En la Figura \ref{fig:ejecuciónMSIS} se presenta el proceso de ordenación de una colección de ejemplo: cada nivel es una iteración del segundo bucle donde se une una parte (casillas azules) a su adyacente (casillas amarillas).
 
 \begin{figure}[hbtp]
     \begin{lstlisting}[language=java, frame=single, numbers=left]
@@ -464,8 +465,8 @@ public static void sort(int[] arr, int[] aux) {
     \label{fig:MSIS_sort()}
 \end{figure}
 
-\subsubsection{Complejidad temporal}%%98 +3
-El MSIS recorre el árbol (véase la Figura \ref{fig:arbolMSIS}) desde la base de la recursión hasta la parte superior, ya que se realizan uniones entre partes de longitud 1-1, 2-2- 4-4... Como en el MSRS, el árbol será balanceado solo si el tamaño de entrada es múltiplo de 2. Siguiendo el mismo método y tomando las mismas suposiciones que en el cálculo de la complejidad temporal del MSRS, la complejidad del MSRS es \(O(n \log{n})\) porque hay \(\log_2{n}-1\) llamadas a \lstinline|sort()| en las cuales se realiza un trabajo de \(O(n)\) en el peor caso.
+\subsubsection{Complejidad temporal}%%94 +3
+El MSIS recorre el árbol desde la base de la recursión hasta la parte superior, ya que se realizan uniones entre partes de longitud 1-1, 2-2- 4-4... Como en el MSRS, el árbol será balanceado solo si el tamaño de entrada es múltiplo de 2. Siguiendo el mismo método y tomando las mismas suposiciones que en el cálculo de la complejidad temporal del MSRS, la complejidad del MSRS es \(O(n \log{n})\) porque hay \(\log_2{n}-1\) llamadas a \lstinline|sort()| en las cuales se realiza un trabajo de \(O(n)\) en el peor caso.
 
 
 \begin{figure}[h]
@@ -487,10 +488,10 @@ El MSIS recorre el árbol (véase la Figura \ref{fig:arbolMSIS}) desde la base d
 
 \newpage
 %%753
-\subsection{Merge Sort Recursivo Paralelo (MSRP)}%%731 +6
-Un \textbf{proceso} es la ejecución de las instrucciones de un programa; después de que estas instrucciones se hayan movido desde la memoria secundaria (SSD\footnote{\textit{Solid-state drive}} por ejemplo) hasta la primaria (RAM\footnote{\textit{Random access memory}}). El sistema operativo crea los procesos y guarda en la memoria información asociada: un identificador de proceso único (\textit{PID}); un espacio de direcciones de memoria, ya que un proceso lee y modifica datos guardados; el estado del proceso; y, una lista de los archivos que el programa usa. En cambio, un \textbf{hilo de ejecución} es una secuencia de instrucciones que el planificador del sistema operativo puede manejar independientemente. \footnote{\cite{bobrov-2023}} Hasta el momento se han mostrado programas que al ejecutarse toman la forma de un proceso con un solo hilo de ejecución (MSIS y MSRS). La idea es mejorar el rendimiento del \textit{Merge Sort} haciendo uso de más de un hilo de ejecución. 
+\subsection{Merge Sort Recursivo Paralelo (MSRP)}%%670 +6 %%VOLVER A CONTAR
+Un \textbf{proceso} es la ejecución de las instrucciones de un programa; después de que estas instrucciones se hayan movido desde la memoria secundaria hasta la primaria. El sistema operativo crea los procesos y guarda en la memoria información asociada. En cambio, un \textbf{hilo de ejecución} es una secuencia de instrucciones que el planificador del sistema operativo puede manejar independientemente. \footnote{\cite{bobrov-2023}} Hasta el momento se han mostrado programas que al ejecutarse toman la forma de un proceso con un solo hilo de ejecución (MSIS y MSRS). La idea es mejorar el rendimiento del \textit{Merge Sort} haciendo uso de más de un hilo de ejecución. 
 
-La herramienta más apropiada que proporciona Java para este problema es la clase \lstinline|ForkJoinPool|.\footnotemark \footnotetext{\cite{OracleForkJoin}} Una piscina de hilos (\textit{thread pool}), es un espacio en el que se mantienen un conjunto fijo de hilos de ejecución reutilizables que esperan a que se les pase un conjunto de instrucciones a ejecutar. Una piscina evita la necesidad de crear y destruir hilos constantemente, hecho que conlleva un costo computacional elevado.\footnote{\cite{engle_2022}}
+La herramienta más apropiada que proporciona Java para este problema es la clase \lstinline|ForkJoinPool|.\footnotemark \footnotetext{\cite{OracleForkJoin}} Una piscina de hilos es un espacio en el que se mantienen un conjunto fijo de hilos de ejecución reusables que esperan a que se les pase un conjunto de instrucciones a ejecutar. Una piscina evita la necesidad de crear y destruir hilos constantemente, hecho que conlleva un costo computacional elevado.\footnote{\cite{engle_2022}}
 
 \begin{figure}[h]
 	\centering
@@ -499,7 +500,7 @@ La herramienta más apropiada que proporciona Java para este problema es la clas
 	\label{fig:forkJoinPool}
 \end{figure}
 
-La \lstinline|ForkJoinPool| permite crear piscinas basadas en un algoritmo de robo de trabajo (\textit{work-stealing algorithm}).\footnote{\cite{Ramgir2017-mv}} Esto significa que las tareas se acumulan en una cola compartida entre todos los hilos, pero, además, cada hilo consta de su propia cola doblemente terminada (decola). Los hilos extraen de la cola las tareas y las ejecutan, si la tarea produce subtareas estas se guardan en su decola. Puede ocurrir que la decola de un hilo se vacíe, en ese caso, el hilo desencola una tarea de la cola compartida.\footnote{\cite{kumar_2024}} La \lstinline|ForkJoinPool| es útil si el algoritmo genera muchas subtareas, ya que el uso de decolas propias reduce significativamente la cantidad de accesos a la cola compartida.\footnote{\cite{blumofe1999scheduling}} Adicionalmente, las tareas de la cola compartida serán siempre de mayor tamaño que las subtareas que generen tareas ubicadas en las decolas. Por ende, \lstinline|ForkJoinPool| es apropiada para la paralelización del \textit{Merge Sort}, en tanto que se generan subtareas que después se volverán a unir.
+La \lstinline|ForkJoinPool| permite crear piscinas basadas en un algoritmo de robo de trabajo (\textit{work-stealing}).\footnote{\cite{Ramgir2017-mv}} Esto significa que las tareas se acumulan en una cola compartida entre todos los hilos, pero, además, cada hilo consta de su propia cola doblemente terminada (decola). Los hilos extraen de la cola las tareas y las ejecutan, si la tarea produce subtareas estas se guardan en su decola. Puede ocurrir que la decola de un hilo se vacíe, en ese caso, el hilo desencola una tarea de la cola compartida.\footnote{\cite{kumar_2024}} La \lstinline|ForkJoinPool| es útil si el algoritmo genera muchas subtareas, ya que el uso de decolas propias reduce significativamente la cantidad de accesos a la cola compartida.\footnote{\cite{blumofe1999scheduling}} Adicionalmente, las tareas de la cola compartida serán siempre de mayor tamaño que las subtareas que generen tareas ubicadas en las decolas. Por ende, \lstinline|ForkJoinPool| es apropiada para la paralelización del \textit{Merge Sort}, en tanto que se generan subtareas que después se volverán a unir.
 
 \begin{figure}[h]
 	\begin{lstlisting}[language=java, frame=single, numbers=left]
@@ -511,9 +512,9 @@ pool.invoke(task);
 	\label{fig:creacionForkJoinPool}
 \end{figure}
 
-Para crear una \lstinline|ForkJoinPool| se llama a su constructor y se pasa el número de hilos trabajadores que tendrá la piscina (\lstinline|parallelismLevel|). Después se debe pasar una tarea a la piscina que esta procesará cuando se llama al método \lstinline|.invoke()|. Existen dos tipos tareas: aquellas que no retornan ningún valor (\lstinline|RecursiveAction|) y aquellas que sí retornan (\lstinline|RecursiveTask|). Ambas subclases heredan de \lstinline|ForkJoinTask|.\footnote{\cite{jenkov2024forkjoinpool}} En este caso, se pasa una tarea del tipo \lstinline{RecursiveAction}. (Véase la Figura \ref{fig:creacionForkJoinPool})
+Para crear una \lstinline|ForkJoinPool| se llama a su constructor y se pasa el número de hilos trabajadores que tendrá la piscina (\lstinline|parallelismLevel|). Después, se debe pasar una tarea a la piscina que esta procesará cuando se llame al método \lstinline|.invoke()|. Existen dos tipos tareas: aquellas que no retornan ningún valor (\lstinline|RecursiveAction|) y aquellas que sí retornan (\lstinline|RecursiveTask|).\footnote{\cite{jenkov2024forkjoinpool}} En este caso, se pasa una tarea del tipo \lstinline|RecursiveAction|. (Figura \ref{fig:creacionForkJoinPool})
 
-Concretamente, la lógica del MSRP se inscribe en una clase \lstinline|MSrecursivoParalelo| que hereda de la clase abstracta \lstinline|RecursiveAction| como se observa en la Figura \ref{fig:MSRP_RecursiveAction}. 
+Concretamente, la lógica del MSRP se inscribe en una clase \lstinline|MSrecursivoParalelo| que hereda de la clase abstracta \lstinline|RecursiveAction| (Figura \ref{fig:MSRP_RecursiveAction}). 
 
 \begin{figure}[h]
 	\begin{lstlisting}[language=java, frame=single, numbers=left]
@@ -539,7 +540,7 @@ public class MSrecursivoParaleloSinUmbral extends RecursiveAction {
 	\label{fig:MSRP_RecursiveAction}
 \end{figure}
 
-En dicha clase el algoritmo de \textit{Merge Sort} se queda encapsulado en el método abstracto \lstinline|compute()|, como se observa en la Figura \ref{fig:MSRP_Compute}. Primero se comprueba el caso base. Después se crean dos subtareas, por ahora inactivas, para cada lado de la colección. A continuación, se pasan las subtareas a \lstinline|invokeAll()|, que las encola en la cola compartida de piscina y espera a que \lstinline|Left| y \lstinline|Right| finalicen. Finalmente, se unen las dos partes con el mismo algoritmo común \lstinline|merge()|.
+En dicha clase el algoritmo queda encapsulado en el método  \lstinline|compute()|, como se observa en la Figura \ref{fig:MSRP_Compute}. Primero se comprueba el caso base. Después se crean dos subtareas, por ahora inactivas, para cada lado de la colección. A continuación, se pasan las subtareas a \lstinline|invokeAll()|, que las encola en la cola compartida de piscina y espera a que \lstinline|Left| y \lstinline|Right| finalicen. Finalmente, se unen las dos partes con el mismo algoritmo común \lstinline|merge()|.
 
 \begin{figure}[h]
     \begin{lstlisting}[language=java, frame=single, numbers=left]
@@ -695,7 +696,7 @@ MSiterativoParalelo.sort(arr, aux, executor);
 	\label{fig:creacionExecutorService}
 \end{figure}
 
-A continuación, para cada iteración se encola internamente en \lstinline|executor| una tarea \lstinline|merge()}| mediante una expresión lambda que recibe \lstinline|executor.submit()| como argumento. Entonces un número determinado de hilos trabajadores toman las tareas de la cola interna y las ejecutan. Si todos los hilos están ocupados, la tarea esperará en la cola hasta que un hilo esté disponible. Una vez que un hilo esté disponible, tomará la tarea de la cola y la ejecutará. Cada llamada a \lstinline|merge()| implica que \lstinline|.submit()| retorne un objeto de la clase \lstinline|Future| que representa el resultado de una operación asíncrona. En este caso, se añaden los \lstinline|Future| a una lista. Finalmente se recorre la lista y para cada \lstinline|Future| se llama a \lstinline|future.get()| que obliga al hilo principal a esperar a que acaben de procesarse todas las tareas encoladas. De lo contrario, podríamos pasar al siguiente \lstinline|size| (del bucle inicial) sin asegurarse de que todas las partes están ordenadas. Una vez completado todos los bucles se llama a \lstinline|executor.shutdown()|, que espera a que, una vez terminen de ejecutarse todas las tareas encoladas anteriormente, cierra la piscina \lstinline|executor| y libera los hilos.
+A continuación, para cada iteración se encola internamente en \lstinline|executor| una tarea \lstinline|merge()| mediante una expresión lambda que recibe \lstinline|executor.submit()| como argumento. Entonces un número determinado de hilos trabajadores toman las tareas de la cola interna y las ejecutan. Si todos los hilos están ocupados, la tarea esperará en la cola hasta que un hilo esté disponible. Una vez que un hilo esté disponible, tomará la tarea de la cola y la ejecutará. Cada llamada a \lstinline|merge()| implica que \lstinline|.submit()| retorne un objeto de la clase \lstinline|Future| que representa el resultado de una operación asíncrona. En este caso, se añaden los \lstinline|Future| a una lista. Finalmente se recorre la lista y para cada \lstinline|Future| se llama a \lstinline|future.get()| que obliga al hilo principal a esperar a que acaben de procesarse todas las tareas encoladas. De lo contrario, podríamos pasar al siguiente \lstinline|size| (del bucle inicial) sin asegurarse de que todas las partes están ordenadas. Una vez completado todos los bucles se llama a \lstinline|executor.shutdown()|, que espera a que, una vez terminen de ejecutarse todas las tareas encoladas anteriormente, cierra la piscina \lstinline|executor| y libera los hilos.
 
 Al igual que en el MSRP se ha tratado de establecer un umbral, para en este caso particular cambiar en ese punto a la versión iterativa serial (MSIS). Los resultados del test preliminar (Figura \ref{fig:testPilotoMSIP}), desarrollados bajo mismo procedimiento que el anterior, arrojan que no existe tamaño de colección alguno para el cual esta implementación (MSIP) sea más rápida que el MSIS.
 
@@ -776,12 +777,12 @@ Para la realización de una comparación empírica de los cuatro algoritmos (MSR
 
 \begin{enumerate}
 	\item Se generan las longitudes crecientes de las colecciones de entrada siguiendo la secuencia $n=$10, 45, 100, 450, 1000... $10^8$. El máximo tamaño es $10^8$ ya que a partir de este tamaño la memoria del computador empleado es insuficiente.
-	\item Para cada tamaño $n$ se genera una colección mediante la clase \lstinline|SplittableRandom| de Java, que en este caso genera colecciones de tipo \lstinline|int| con valores pseudoaleatorios extraídos de una distribución uniforme.\footnote{\cite{OracleSplittableRandom}}. Particularmente, el generador produce números del 0 al 1000 y siempre emplea la misma semilla (6180339887), por tanto, en todas las muestras la secuencia de elementos a ordenar es la misma. Esto se hace para que la variación del tiempo de ejecución a lo largo del tamaño de entrada creciente se deba a la naturaleza misma del algoritmo y no influya el estado inicial del arreglo ya que son <<idénticos>>.
+	\item Para cada tamaño $n$ se genera una colección mediante la clase \lstinline|SplittableRandom| de Java, que en este caso genera colecciones de tipo \lstinline|int| con valores pseudoaleatorios extraídos de una distribución uniforme.\footnote{\cite{OracleSplittableRandom}} Particularmente, el generador produce números del 0 al 999 y siempre emplea la misma semilla (6180339887), por tanto, en todas las muestras la secuencia de elementos a ordenar es la misma. Esto se hace para que la variación del tiempo de ejecución a lo largo del tamaño de entrada creciente se deba a la naturaleza misma del algoritmo y no influya el estado inicial del arreglo ya que son <<idénticos>>.
 	\item Para cada toma de muestra se instancia un nuevo arreglo y se copia en este el arreglo generado anteriormente; de lo contrario en la siguiente muestra se estaría ordenando un arreglo ya ordenado. Para la colección auxiliar se sigue el mismo procedimiento.
-	\item El tiempo de ejecución se mide mediante la función \lstinline|System.nanoTime| que retorna el tiempo actual más preciso disponible en el sistema. El valor devuelto son los nanosegundos desde un tiempo arbitrario y provee de precisión nanosegundaria, pero no necesariamente de exactitud. Cada ejecución se realizan entre una variable \lstinline|long startTime| y \lstinline|long endTime|. El tiempo de ejecución es la diferencia entre estas.\footnote{\cite{OracleSystem}}
+	\item El tiempo de ejecución se mide mediante la función \lstinline|System.nanoTime| que retorna el tiempo actual más preciso disponible en el sistema. El valor devuelto son los nanosegundos desde un tiempo arbitrario y provee de precisión nanosegundaria, pero no necesariamente de exactitud.\footnote{\cite{OracleSystem}} Cada ejecución se realizan entre una variable \lstinline|long startTime| y \lstinline|long endTime|. El tiempo de ejecución es la diferencia entre estas.
 	\item Después se elimina el peor y mejor tiempo de entre las 50 ejecuciones, quedando así 48.
 	\item En el caso de los algoritmos paralelos se establece un mismo número de hilos para cada piscina para que la comparación sea justa. Concretamente, \lstinline|parallelismLevel=10| ya que el computador empleado consta de 12 hilos y se reservan 2 en caso de que se ejecute algún proceso en segundo plano que los necesite. 
-	\item El código de las implementaciones, el código del \textit{benchmark} y los resultados del \textit{benchmark} quedan recogidos en los Apéndices A, B y C respectivamente.
+	\item El código de las implementaciones, el código del \textit{benchmark} quedan recogidos en los Apéndices A y B respectivamente.
 	
 \end{enumerate}
 
@@ -993,7 +994,7 @@ En la Figura \ref{fig:compMSRSyMSISrelativa} se observa que para tamaños peque�
 	\item Rendimiento: consta de un rendimiento ligeramente mejor que el MSRS para tamaños medianos y grandes (Figura \ref{fig:compMSRSyMSISrelativa}) pero también disminuye para tamaños grandes (Figura \ref{fig:graficoTodos}). En el caso de los tamaños pequeños el MSRS podría ser más eficiente que el MSIS porque inicialmente el pila de llamadas es pequeña y supone un costo de gestión inferior que el costo de manejo de bucles anidados del MSIS. En cambio para tamaños grandes, la profundidad de la recursión aumenta tanto que torna ineficiente en comparación al control de bucles anidados.
 \end{itemize}
 
-\subsection{MSRP (Recursivo Paralelo)}%%64 +4
+\subsection{MSRP (Recursivo Paralelo)}%%64 +4 
 \begin{itemize}
 	\item Ventajas: la concurrencia permite mayor rendimiento para colecciones grandes.
 	\item Desventajas: la gestión de hilos introduce una sobrecarga adicional.
@@ -1094,7 +1095,7 @@ Aunque las cuatro implementaciones muestran un comportamiento asimptótico linea
 	\label{fig:comparacionCuatro}
 \end{figure}
 
-\section{Conclusión}
+\section{Conclusión}%%141 + 2
 La presente monografía ha permitido evaluar el impacto de las técnicas de concurrencia en el algoritmo \textit{Merge Sort}, comparando implementaciones seriales y sus contrapartes paralelas. Por un lado, el análisis teórico inicial ha previsto que el comportamiento asintótico, linealogarítmico en este caso, es independiente de la inserción de técnicas de concurrencia. Por otro lado, la experimentación empírica ha mostrado que, si bien la ejecución paralela mediante la \lstinline|forkJoinPool| (MSRP) mejora significativamente el rendimiento en conjuntos grandes, el algoritmo iterativo paralelo (MSIP) no supera a su análogo serial debido a la sobrecarga de gestión concurrente. 
 
 Los hallazgos permiten concluir que la concurrencia optimiza el \textit{Merge Sort} en la medida de que se encuentre un balance óptimo entre el costo de gestión de hilos y la ganancia por paralelización. Además de la importancia de considerar enfoques distintos para cada tamaño de entrada requerido.
@@ -1103,6 +1104,7 @@ Los hallazgos permiten concluir que la concurrencia optimiza el \textit{Merge So
 
 \newpage
 \bibliography{bibliografia}
+
 
 \textbf{Todas las figuras han sido creadas por el candidato.}
 
