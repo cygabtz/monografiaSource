@@ -82,33 +82,6 @@ Bobrov, K.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Ching%
-, Phoon%
-\BCBL {}\ \BBA {} Shuku%
-}{%
-Ching%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2023}}%
-}]{%
-ching2023uncertainty}
-\APACinsertmetastar {%
-ching2023uncertainty}%
-\begin{APACrefauthors}%
-Ching, J.%
-, Phoon, K\BHBI K.%
-\BCBL {}\ \BBA {} Shuku, T.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2023}.
-\newblock
-\APACrefbtitle {Uncertainty, Modeling, and Decision Making in Geotechnics}
-  {Uncertainty, modeling, and decision making in geotechnics}.
-\newblock
-\APACaddressPublisher{}{CRC Press}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 College%
 }{%
 College%
@@ -539,6 +512,37 @@ Pandey, R\BPBI C.%
   {Study and comparison of various sorting algorithms}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Computer Science and Engineering}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Phoon%
+, Shuku%
+\BCBL {}\ \BBA {} Ching%
+}{%
+Phoon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+ching2023uncertainty}
+\APACinsertmetastar {%
+ching2023uncertainty}%
+\begin{APACrefauthors}%
+Phoon, K\BHBI K.%
+, Shuku, T.%
+\BCBL {}\ \BBA {} Ching, J.%
+\end{APACrefauthors}%
+\ (\BEDS).
+\unskip\
+\newblock
+\APACrefYear{2023}.
+\newblock
+\APACrefbtitle {Uncertainty, Modeling, and Decision Making in Geotechnics}
+  {Uncertainty, modeling, and decision making in geotechnics}\
+  (\PrintOrdinal{1}\ \BEd).
+\newblock
+\APACaddressPublisher{}{CRC Press}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1201/9781003333586} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

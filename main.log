@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  3 FEB 2025 07:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  10 FEB 2025 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -317,6 +317,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 
@@ -530,8 +533,6 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count339
-) (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
-Package: relsize 2013/03/29 ver 4.1
 )
 \skiptotal=\skip64
 \skiplinenumber=\skip65
@@ -568,7 +569,8 @@ Package: relsize 2013/03/29 ver 4.1
 \c@algocf=\count342
 \algocf@algoframe=\box92
 \algocf@algobox=\box93
-) (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count343
 \lst@gtempboxa=\box94
 \lst@token=\toks29
@@ -1111,6 +1113,9 @@ LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ))
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
@@ -1156,32 +1161,39 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (main.aux
+)
+(C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count384
+\c@@ppsavesec=\count385
+\c@@ppsaveapp=\count386
+)
+(main.aux
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Info: Redefining \. on input line 105.
-LaTeX Info: Redefining \% on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1221,16 +1233,16 @@ LaTeX Info: Redefining \% on input line 105.
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count384
+\scratchcounter=\count387
 \scratchdimen=\dimen358
 \scratchbox=\box113
-\nofMPsegments=\count385
-\nofMParguments=\count386
+\nofMPsegments=\count388
+\nofMParguments=\count389
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count387
+\MPscratchCnt=\count390
 \MPscratchDim=\dimen359
-\MPnumerator=\count388
-\makeMPintoPDFobject=\count389
+\MPnumerator=\count391
+\makeMPintoPDFobject=\count392
 \everyMPtoPDFconversion=\toks56
 )
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1243,7 +1255,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 105.
+Package hyperref Info: Link coloring ON on input line 113.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1257,8 +1269,8 @@ Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
 e.sty
 Package: xparse 2023-10-10 L3 Experimental document command parser
 ))
-\c@lstlisting=\count390
-\c@maskedRefs=\count391
+\c@lstlisting=\count393
+\c@maskedRefs=\count394
 
 (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/apacite\spanish.apc
 File: spanish.apc 2013/07/21 v6.03 apacite language file
@@ -1323,81 +1335,85 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.142 \newpage
+l.150 \newpage
                [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 154.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 146.
-<Diagrames/arbolMS.png, id=143, 516.7305pt x 379.4175pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 154.
+<Diagrames/arbolMS.png, id=147, 516.7305pt x 379.4175pt>
 File: Diagrames/arbolMS.png Graphic file (type png)
 <use Diagrames/arbolMS.png>
-Package pdftex.def Info: Diagrames/arbolMS.png  used on input line 158.
-(pdftex.def)             Requested size: 170.71393pt x 125.3471pt.
+Package pdftex.def Info: Diagrames/arbolMS.png  used on input line 165.
+(pdftex.def)             Requested size: 149.37958pt x 109.68088pt.
  [2 <./Diagrames/arbolMS.png>]
-<Diagrames/serialVsParallel.png, id=166, 455.301pt x 151.767pt>
+<Diagrames/serialVsParallel.png, id=172, 455.301pt x 151.767pt>
 File: Diagrames/serialVsParallel.png Graphic file (type png)
 <use Diagrames/serialVsParallel.png>
-Package pdftex.def Info: Diagrames/serialVsParallel.png  used on input line 172
+Package pdftex.def Info: Diagrames/serialVsParallel.png  used on input line 178
 .
-(pdftex.def)             Requested size: 277.41176pt x 92.47351pt.
-<ejemploRecursion.png, id=176, 779.91376pt x 160.09813pt>
+(pdftex.def)             Requested size: 362.77525pt x 120.92975pt.
+<ejemploRecursion.png, id=182, 779.91376pt x 160.09813pt>
 File: ejemploRecursion.png Graphic file (type png)
 <use ejemploRecursion.png>
-Package pdftex.def Info: ejemploRecursion.png  used on input line 180.
+Package pdftex.def Info: ejemploRecursion.png  used on input line 186.
 (pdftex.def)             Requested size: 426.79135pt x 87.60962pt.
  [3 <./Diagrames/serialVsParallel.png> <./ejemploRecursion.png>]
-Overfull \hbox (1.8758pt too wide) in paragraph at lines 245--246
+Overfull \hbox (1.8758pt too wide) in paragraph at lines 251--252
  [][] 
  []
 
 
-Overfull \hbox (1.87991pt too wide) in paragraph at lines 308--310
+Overfull \hbox (1.87991pt too wide) in paragraph at lines 315--318
  [][] 
  []
 
 [4] [5]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-70.
+78.
  (C:\Users\benit\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 ) [6]
-<Diagrames/arbolBinarioMSRSn8.png, id=285, 903.375pt x 390.258pt>
+<Diagrames/arbolBinarioMSRSn8.png, id=289, 903.375pt x 390.258pt>
 File: Diagrames/arbolBinarioMSRSn8.png Graphic file (type png)
 <use Diagrames/arbolBinarioMSRSn8.png>
 Package pdftex.def Info: Diagrames/arbolBinarioMSRSn8.png  used on input line 4
-15.
+23.
 (pdftex.def)             Requested size: 341.43437pt x 147.50162pt.
  [7 <./Diagrames/arbolBinarioMSRSn8.png>]
-<Diagrames/arbolBinarioLenght.png, id=298, 730.6497pt x 332.442pt>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 430.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 430.
+<Diagrames/arbolBinarioLenght.png, id=302, 730.6497pt x 332.442pt>
 File: Diagrames/arbolBinarioLenght.png Graphic file (type png)
 <use Diagrames/arbolBinarioLenght.png>
 Package pdftex.def Info: Diagrames/arbolBinarioLenght.png  used on input line 4
-33.
+46.
 (pdftex.def)             Requested size: 202.72523pt x 92.23598pt.
-<Diagrames/arbolBinario_MSRS.png, id=299, 708.9687pt x 390.9807pt>
+<Diagrames/arbolBinario_MSRS.png, id=303, 708.9687pt x 390.9807pt>
 File: Diagrames/arbolBinario_MSRS.png Graphic file (type png)
 <use Diagrames/arbolBinario_MSRS.png>
-Package pdftex.def Info: Diagrames/arbolBinario_MSRS.png  used on input line 43
-9.
+Package pdftex.def Info: Diagrames/arbolBinario_MSRS.png  used on input line 45
+2.
 (pdftex.def)             Requested size: 202.72523pt x 111.80054pt.
  [8 <./Diagrames/arbolBinarioLenght.png> <./Diagrames/arbolBinario_MSRS.png>]
-<Diagrames/ejecucionMSIS.png, id=310, 477.7047pt x 449.5194pt>
+<Diagrames/ejecucionMSIS.png, id=314, 477.7047pt x 449.5194pt>
 File: Diagrames/ejecucionMSIS.png Graphic file (type png)
 <use Diagrames/ejecucionMSIS.png>
-Package pdftex.def Info: Diagrames/ejecucionMSIS.png  used on input line 477.
+Package pdftex.def Info: Diagrames/ejecucionMSIS.png  used on input line 490.
 (pdftex.def)             Requested size: 170.71393pt x 160.64023pt.
-<Diagrames/arbolMSISirregular.png, id=311, 781.2387pt x 405.4347pt>
+<Diagrames/arbolMSISirregular.png, id=315, 781.2387pt x 405.4347pt>
 File: Diagrames/arbolMSISirregular.png Graphic file (type png)
 <use Diagrames/arbolMSISirregular.png>
 Package pdftex.def Info: Diagrames/arbolMSISirregular.png  used on input line 4
-83.
+96.
 (pdftex.def)             Requested size: 234.73654pt x 121.81693pt.
  [9 <./Diagrames/ejecucionMSIS.png> <./Diagrames/arbolMSISirregular.png>]
-<Diagrames/forkJoinPool.png, id=341, 1146.9249pt x 622.9674pt>
+<Diagrames/forkJoinPool.png, id=345, 1146.9249pt x 622.9674pt>
 File: Diagrames/forkJoinPool.png Graphic file (type png)
 <use Diagrames/forkJoinPool.png>
-Package pdftex.def Info: Diagrames/forkJoinPool.png  used on input line 498.
+Package pdftex.def Info: Diagrames/forkJoinPool.png  used on input line 511.
 (pdftex.def)             Requested size: 320.0935pt x 173.85933pt.
  [10 <./Diagrames/forkJoinPool.png>]
 
@@ -1435,28 +1451,105 @@ Package tabularray Warning: Table width is too small, need 2.0051pt more!
 
 > Step: build the whole table.
 
-Overfull \hbox (2.0051pt too wide) in paragraph at lines 818--819
+Overfull \hbox (2.0051pt too wide) in paragraph at lines 831--832
  [][] 
  []
 
 [18] [19] [20]
-Overfull \hbox (13.52592pt too wide) in paragraph at lines 1009--1010
+Overfull \hbox (13.52592pt too wide) in paragraph at lines 1024--1025
 []\T1/ptm/m/n/10 Aunque las cua-tro im-ple-men-ta-cio-nes mues-tran un com-por-
 ta-mien-to asim-ptó-ti-co linea-logarítmico $\OML/ztmcm/m/it/10 O\OT1/ztmcm/m/n
 /10 (\OML/ztmcm/m/it/10 n [] n\OT1/ztmcm/m/n/10 )$
  []
 
 [21] [22] (main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 197--211
+Underfull \hbox (badness 10000) in paragraph at lines 170--184
 \T1/cmtt/m/n/10 courses [] .lumenlearning [] .com / sanjacinto [] -computerapps
  / chapter / reading [] -structured []
  []
 
-[23]) [24] [25] [26] [27] [28] [29]
+[23]) (main.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [24])
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
-LaTeX Warning: Float too large for page by 23.03577pt on input line 1427.
+ (main.lot
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [25])
+\tf@lot=\write7
+\openout7 = `main.lot'.
 
-[30] [31] (main.aux
+ [26] [27] [28] [29] [30]
+
+LaTeX Warning: Float too large for page by 23.03577pt on input line 1447.
+
+[31] [32]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=49.79231pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=28.45274pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ [33
+
+] [34]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[36]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[37] [38
+
+
+
+
+
+
+
+
+] [39]
+
+LaTeX Warning: Float too large for page by 23.03577pt on input line 2117.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40] (main.aux
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 )
@@ -1465,14 +1558,14 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4971EDD73F3271684FBD85E16E640443;3876.
+(rerunfilecheck)             Checksum: 0A0E5240E7211D9A87CBEC197A920FAC;3945.
  ) 
 Here is how much of TeX's memory you used:
- 42699 strings out of 474486
- 971932 string characters out of 5743756
+ 43069 strings out of 474486
+ 978045 string characters out of 5743756
  2148542 words of memory out of 5000000
- 63793 multiletter control sequences out of 15000+600000
- 645883 words of font info for 136 fonts, out of 8000000 for 9000
+ 63956 multiletter control sequences out of 15000+600000
+ 654625 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,21n,115p,1491b,2328s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1606,9 +1699,9 @@ TeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/benit/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/benit/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/benit/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (32 pages, 1637487 bytes).
+Output written on main.pdf (41 pages, 1726636 bytes).
 PDF statistics:
- 1206 PDF objects out of 1440 (max. 8388607)
- 537 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1505 PDF objects out of 1728 (max. 8388607)
+ 728 named destinations out of 1000 (max. 500000)
+ 250 words of extra memory for PDF output out of 10000 (max. 10000000)
 
