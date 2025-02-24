@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  10 FEB 2025 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.5)  24 FEB 2025 11:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1347,12 +1347,12 @@ File: Diagrames/arbolMS.png Graphic file (type png)
 Package pdftex.def Info: Diagrames/arbolMS.png  used on input line 165.
 (pdftex.def)             Requested size: 149.37958pt x 109.68088pt.
  [2 <./Diagrames/arbolMS.png>]
-<Diagrames/serialVsParallel.png, id=172, 455.301pt x 151.767pt>
+<Diagrames/serialVsParallel.png, id=172, 448.074pt x 137.313pt>
 File: Diagrames/serialVsParallel.png Graphic file (type png)
 <use Diagrames/serialVsParallel.png>
 Package pdftex.def Info: Diagrames/serialVsParallel.png  used on input line 178
 .
-(pdftex.def)             Requested size: 362.77525pt x 120.92975pt.
+(pdftex.def)             Requested size: 362.77525pt x 111.17471pt.
 <ejemploRecursion.png, id=182, 779.91376pt x 160.09813pt>
 File: ejemploRecursion.png Graphic file (type png)
 <use ejemploRecursion.png>
@@ -1699,7 +1699,7 @@ TeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/benit/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/benit/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/benit/AppData/Local/Programs/Mi
 KTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (41 pages, 1726636 bytes).
+Output written on main.pdf (41 pages, 1732953 bytes).
 PDF statistics:
  1505 PDF objects out of 1728 (max. 8388607)
  728 named destinations out of 1000 (max. 500000)
